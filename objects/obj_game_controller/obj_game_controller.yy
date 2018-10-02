@@ -1,28 +1,18 @@
 {
-    "id": "25fd15d1-3d5d-4045-81f8-1047c8b69a10",
+    "id": "012e9825-62f9-4bd0-b525-24fc089d85b9",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_SmileyBoi",
+    "name": "obj_game_controller",
     "eventList": [
         {
-            "id": "50198346-0f15-4d81-acb5-af5dc3f72e0e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "25fd15d1-3d5d-4045-81f8-1047c8b69a10"
-        },
-        {
-            "id": "c2669240-2172-4226-9252-c8538814fb3d",
+            "id": "337d6cdd-562a-49c9-b7a0-eaf4a92aae64",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "25fd15d1-3d5d-4045-81f8-1047c8b69a10"
+            "m_owner": "012e9825-62f9-4bd0-b525-24fc089d85b9"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "9b2c1cde-9608-4c02-a9e5-bf059da6d18f",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

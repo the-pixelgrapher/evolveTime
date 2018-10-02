@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "012e9825-62f9-4bd0-b525-24fc089d85b9",
+            "Value": {
+                "id": "94658628-ac3e-4706-8175-8026514dd2c1",
+                "resourcePath": "objects\\obj_game_controller\\obj_game_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "058d8489-4042-41b3-ac68-1435f1b71835",
             "Value": {
                 "id": "0907791c-00a8-48c9-9321-3c1d22ed2ac2",
@@ -116,6 +124,14 @@
                 "id": "fb7111c1-5d39-444a-9a46-e5424519b290",
                 "resourcePath": "objects\\obj_Wall\\obj_Wall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8a184d77-9988-4ba2-9080-2f0916c8ed1f",
+            "Value": {
+                "id": "42eaed7d-bf41-4b22-88e0-5cf2f61a93ba",
+                "resourcePath": "scripts\\scr_controls\\scr_controls.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -240,7 +256,7 @@
         }
     ],
     "script_order": [
-        
+        "8a184d77-9988-4ba2-9080-2f0916c8ed1f"
     ],
     "tutorial": ""
 }
