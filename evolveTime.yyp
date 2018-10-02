@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "5e8f9de2-81cc-45fa-a845-16b8e57a6a37",
+            "Value": {
+                "id": "dec66ec2-d0ed-4391-adba-212e5a0b148c",
+                "resourcePath": "sprites\\spr_SlimeyBoiJump\\spr_SlimeyBoiJump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5fd27e8a-dc5a-4d3e-9c41-812a99a5c27c",
             "Value": {
                 "id": "947605a7-b26d-454c-8fe5-c3e0e0707284",
