@@ -47,6 +47,22 @@
             }
         },
         {
+            "Key": "13d41d0c-9296-4e24-9a11-b4a307d3b702",
+            "Value": {
+                "id": "996f1ed4-1dae-4971-b7fa-3eb91da4dc8d",
+                "resourcePath": "sprites\\spr_Wall\\spr_Wall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "25fd15d1-3d5d-4045-81f8-1047c8b69a10",
+            "Value": {
+                "id": "9c55350e-99a1-4e20-bf8c-29b9bd7e5fb8",
+                "resourcePath": "objects\\obj_SmileyBoi\\obj_SmileyBoi.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2c3e2918-056d-447f-a44e-d86e15e8a81e",
             "Value": {
                 "id": "adadbf02-42e3-4c20-9b45-ab6f01b6c69e",
@@ -87,6 +103,14 @@
             }
         },
         {
+            "Key": "81c5aed8-6d03-4b94-9b8d-27a9269e2efe",
+            "Value": {
+                "id": "fb7111c1-5d39-444a-9a46-e5424519b290",
+                "resourcePath": "objects\\obj_Wall\\obj_Wall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9516a540-15b4-43d6-9077-cfd9a87303b6",
             "Value": {
                 "id": "5fb003d4-463b-4e84-8031-c9287bf20b5d",
@@ -111,19 +135,19 @@
             }
         },
         {
+            "Key": "9b2c1cde-9608-4c02-a9e5-bf059da6d18f",
+            "Value": {
+                "id": "1971b4df-1369-42a6-ac39-b1cc0c7cf727",
+                "resourcePath": "sprites\\spr_SlimeyBoi\\spr_SlimeyBoi.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "512ca2f9-139e-42d9-af63-c4bb3466742d",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
-            "Key": "ab1d7e1d-ca0f-4527-a42a-a3114c387fd2",
-            "Value": {
-                "id": "f554e158-e683-419a-a6ec-5fa86985bb0d",
-                "resourcePath": "objects\\obj_player\\obj_player.yy",
-                "resourceType": "GMObject"
             }
         },
         {
