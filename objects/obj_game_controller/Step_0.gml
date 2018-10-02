@@ -1,5 +1,5 @@
 //reset game
 
-if (keyboard_check(vk_backspace)) {
+if (keyboard_check_pressed(vk_backspace)) {
 	room_restart();
 }
