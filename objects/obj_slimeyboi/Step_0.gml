@@ -11,6 +11,7 @@ vsp = vsp + grv;
 if (place_meeting(x, y + 1, obj_wall)) 
 {
     grounded = true;
+	can_jump = true;
 } 
 else 
 {
@@ -21,6 +22,8 @@ else
 //var airtime = 0; // num of steps in air for
 
 // Generous jump buffer
+var jump_buffer = 5; // num of steps jump still allowed after leaving ground
+
 if (!grounded)
 {
 	airtime += 1;
@@ -30,12 +33,15 @@ else
 	airtime = 0;
 }
 
-if ((airtime <= jump_buffer) && key_up)
+if (airtime >= jump_buffer)
 {
-	if (key_up)
-	{
-		vsp = -7;
-	}
+	can_jump = false;	
+}
+
+if (key_up_p && can_jump)
+{
+	vsp = -7;
+	can_jump = false;
 }
 
 #region //  ---- COLLISIONS ----
