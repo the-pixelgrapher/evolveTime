@@ -1,0 +1,2 @@
+scr_move(hsp);
+
