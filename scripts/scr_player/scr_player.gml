@@ -1,6 +1,6 @@
 // Player step event script
 
-// Grounded check
+#region // Grounded check
 if (place_meeting(x, y + 1, obj_solid)) 
 {
 	grounded = true;
@@ -10,9 +10,9 @@ else
 {
 	grounded = false;
 }
+#endregion
 
-
-// Generous jump buffer
+#region // Generous jump buffer
 var jump_buffer = 5; // num of steps jump still allowed after leaving ground
 
 if (!grounded)
@@ -28,8 +28,9 @@ if (airtime >= jump_buffer)
 {
 	jump_armed = false;	
 }
+#endregion
 
-
+#region // Control
 if (controls_enabled)
 {
 	
@@ -45,6 +46,12 @@ if (controls_enabled)
 	{
 		scr_push();
 	}
+	
+	// Breaking breakable objects
+	if (can_break)
+	{
+		scr_break_blocks();
+	}
 
 	var move = (key_right - key_left) * controls_enabled;
 	hsp = move * walksp;
@@ -56,7 +63,9 @@ if (controls_enabled)
 		jump_armed = false;
 	}
 }
+#endregion
 else
+#region // Walk back and forth
 {
 	hsp = walksp;
 	
@@ -65,3 +74,4 @@ else
 		walksp *= -1;
 	}
 }
+#endregion
