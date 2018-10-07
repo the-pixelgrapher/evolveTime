@@ -8,6 +8,7 @@ if (y > 720)
 }
 
 // Draw Event
+/*
 if (!grounded) 
 {
     sprite_index = spr_slimeyboijump;
@@ -19,3 +20,4 @@ else
 {
     sprite_index = spr_slimeyboi;
 }
+*/
