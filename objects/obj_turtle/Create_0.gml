@@ -6,6 +6,7 @@ grv = 0.3;
 
 airtime = 0; // num of steps in air for
 
+jump_armed = false // Whether the player can jump at current step
 can_jump = true;
 can_push = false;
 
