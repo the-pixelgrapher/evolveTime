@@ -2,8 +2,6 @@ hsp = 0;
 vsp = 0;
 walksp = 4;
 
-grv = 0.3;
-
 airtime = 0; // num of steps in air for
 
 jump_armed = false // Whether the player can jump at current step
