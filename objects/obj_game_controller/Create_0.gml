@@ -1,1 +1,1 @@
-global.grv = 0.3 // Gravity
+global.grv = 0.3; // Gravity
