@@ -11,6 +11,7 @@ else
 	grounded = false;
 }
 
+
 // Generous jump buffer
 var jump_buffer = 5; // num of steps jump still allowed after leaving ground
 
@@ -28,8 +29,12 @@ if (airtime >= jump_buffer)
 	jump_armed = false;	
 }
 
+
 if (controls_enabled)
 {
+	
+	walksp *= sign(walksp);
+	
 	scr_capture();
 	
 	// Get player input
@@ -53,5 +58,10 @@ if (controls_enabled)
 }
 else
 {
-	hsp = 0;
+	hsp = walksp;
+	
+	if (place_meeting(x + hsp, y, obj_solid))
+	{
+		walksp *= -1;
+	}
 }

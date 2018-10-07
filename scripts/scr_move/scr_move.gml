@@ -3,7 +3,7 @@ var hsp = argument[0];
 // Basic collisions and gravity
 
 // Calculate Movement
-vsp = vsp + grv;
+vsp = vsp + global.grv;
 
 #region //  ---- COLLISIONS ----
 

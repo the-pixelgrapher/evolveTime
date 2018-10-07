@@ -135,14 +135,6 @@
             }
         },
         {
-            "Key": "5fd27e8a-dc5a-4d3e-9c41-812a99a5c27c",
-            "Value": {
-                "id": "947605a7-b26d-454c-8fe5-c3e0e0707284",
-                "resourcePath": "sprites\\spr_player_formless\\spr_player_formless.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "6120ae43-fd98-4b80-b702-c28cb7f0df4e",
             "Value": {
                 "id": "7977be09-7f8c-4994-a327-ba851f5b450e",

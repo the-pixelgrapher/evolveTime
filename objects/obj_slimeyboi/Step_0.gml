@@ -7,7 +7,7 @@ if (y > 720)
 	room_restart();
 }
 
-//Draw Event
+// Draw Event
 if (!grounded) 
 {
     sprite_index = spr_slimeyboijump;

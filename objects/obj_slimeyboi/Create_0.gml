@@ -1,8 +1,6 @@
 hsp = 0; 
 vsp = 0;
-walksp = 4;
-
-grv = 0.3;
+walksp = 4; // Horizontal movement speed
 
 airtime = 0; // num of steps in air for
 
