@@ -1,4 +1,3 @@
-draw_self();
 
 if (hsp > 0)
 {
@@ -12,4 +11,9 @@ else if (hsp < 0)
 if (controls_enabled)
 {
 	draw_sprite(spr_indicator, 0, x, y - 42);
+	draw_sprite(spr_player_turtle_blob, 0, x, y);
+}
+else
+{
+	draw_self();
 }

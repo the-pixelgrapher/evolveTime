@@ -59,7 +59,7 @@ if (controls_enabled)
 	// Jumping
 	if (key_up_p && jump_armed && can_jump)
 	{
-		vsp = -7;
+		vsp = jump_height * -1;
 		jump_armed = false;
 	}
 }
