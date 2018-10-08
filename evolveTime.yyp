@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "8826fa2f-c99c-4c89-a0a5-9d8ff6f40b46",
+            "Value": {
+                "id": "3254a47e-9eba-4581-9410-34364060b80a",
+                "resourcePath": "tilesets\\tle_grass\\tle_grass.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "89e5948d-eb87-4584-bd5f-e4a5c435251c",
             "Value": {
                 "id": "5f0be4bb-929b-4152-8f74-21d2c43af0de",
