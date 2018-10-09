@@ -1,10 +1,11 @@
 hsp = 0; 
 vsp = 0;
 walksp = 4; // Horizontal movement speed
-jump_height = 10; // Initial speed of jump (positive is up)
+jump_height = 9.5; // Initial speed of jump (positive is up)
 
 airtime = 0; // Num of steps in air for
 jump_armed = false; // Whether the player can jump at current step
+queue_jump = false; // Whether this character will autojump once it touches the ground
 
 can_jump = true; // Whether this character can jump
 can_push = false; // Whether this character can push moveable objects

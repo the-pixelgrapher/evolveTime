@@ -36,10 +36,21 @@ if (controls_enabled)
 	
 	walksp *= sign(walksp);
 	
-	scr_capture();
-	
 	// Get player input
 	scr_controls();
+	
+	if (key_up_p && vsp > 0)
+	{
+		// queue_jump = 1;
+	}
+	
+	if (queue_jump)
+	{
+		//key_up_p = 1;
+	}
+	
+	// Capture another animal
+	scr_capture();
 
 	// Pushing solid objects
 	if (can_push)
@@ -57,10 +68,11 @@ if (controls_enabled)
 	hsp = move * walksp;
 
 	// Jumping
-	if (key_up_p && jump_armed && can_jump)
+	if (key_up_p && jump_armed && can_jump && controls_enabled)
 	{
 		vsp = jump_height * -1;
 		jump_armed = false;
+		queue_jump = false;
 	}
 }
 #endregion
