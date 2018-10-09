@@ -20,11 +20,13 @@ if (object_index != obj_slimeyboi && controls_enabled)
 {
 	if (key_shift && key_up)
 	{
+		var xs = image_xscale;
 		
 		with (instance_create_layer(x, y, "player", obj_slimeyboi))
 		{
-			queue_jump = 1;
-			vsp = jump_height * -1;
+			//queue_jump = 1;
+			vsp = jump_height * -1 * sign(global.grv);
+			image_xscale = xs;
 		}
 		
 		walksp *= image_xscale;

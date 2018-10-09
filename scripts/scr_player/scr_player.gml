@@ -39,20 +39,10 @@ if (controls_enabled)
 	// Get player input
 	scr_controls();
 	
-	if (key_up_p && vsp > 0)
-	{
-		// queue_jump = 1;
-	}
-	
-	if (queue_jump)
-	{
-		//key_up_p = 1;
-	}
-	
 	// Capture another animal
 	scr_capture();
 
-	// Pushing solid objects
+	// Pushing movable objects
 	if (can_push)
 	{
 		scr_push();
@@ -70,7 +60,7 @@ if (controls_enabled)
 	// Jumping
 	if (key_up_p && jump_armed && can_jump && controls_enabled)
 	{
-		vsp = jump_height * -1;
+		vsp = jump_height * -1 * sign(global.grv);
 		jump_armed = false;
 		queue_jump = false;
 	}
