@@ -2,6 +2,7 @@ hsp = 0;
 vsp = 0;
 walksp = 2; // Horizontal movement speed
 jump_height = 7; // Initial speed of jump (positive is up)
+collisons = true;
 
 airtime = 0; // Num of steps in air for
 jump_armed = false; // Whether the player can jump at current step

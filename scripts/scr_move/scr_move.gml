@@ -8,7 +8,7 @@ vsp = vsp + global.grv;
 #region //  ---- COLLISIONS ----
 
 // Horizontal Collision
-if (place_meeting(x + hsp, y, obj_solid))
+if (place_meeting(x + hsp, y, obj_solid) && collisons)
 {
 	while(!place_meeting(x + sign(hsp), y, obj_solid))
 	{
@@ -19,7 +19,7 @@ if (place_meeting(x + hsp, y, obj_solid))
 x = x + hsp;
 
 // Vertical Collision
-if (place_meeting(x, y + vsp, obj_solid))
+if (place_meeting(x, y + vsp, obj_solid) && collisons)
 {
 	while(!place_meeting(x, y + sign(vsp), obj_solid))
 	{
@@ -43,6 +43,10 @@ y -= 1000;
 
 y = y + vsp;
 
+if (!collisons)
+{
+	image_angle += 10;
+}
 
 
 #endregion

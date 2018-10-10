@@ -10,7 +10,5 @@ else
 }
 
 // Wave(from, to, duration, offset)
-xsa = scr_wave(1, 1.25, 1.5, 0.0);
-ysa = scr_wave(1, 1.25, 1.5, 0.0);
 
-ya = scr_wave(y - 8, y + 8, 2, 0.0);
+ya = scr_wave(yo - 8, yo + 8, 2, 0.0);
