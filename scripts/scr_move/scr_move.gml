@@ -46,7 +46,6 @@ y = y + vsp;
 if (!collisons)
 {
 	image_angle += 10;
-	hsp = 0;
 }
 
 

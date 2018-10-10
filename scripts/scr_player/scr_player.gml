@@ -33,7 +33,7 @@ if (airtime >= jump_buffer)
 #region // Control
 if (controls_enabled)
 {
-	
+	// Ensure walksp is always positive
 	walksp *= sign(walksp);
 	
 	// Get player input
@@ -62,7 +62,6 @@ if (controls_enabled)
 	{
 		vsp = jump_height * -1 * sign(global.grv);
 		jump_armed = false;
-		queue_jump = false;
 	}
 }
 #endregion
@@ -70,7 +69,7 @@ else
 #region // Walk back and forth
 {
 	hsp = walksp;
-	
+
 	if (place_meeting(x + hsp, y, obj_solid) && collisons)
 	{
 		walksp *= -1;
@@ -78,14 +77,28 @@ else
 }
 #endregion
 
-image_xscale *= 0.8;
+if (capture_cooldown > 0)
+{
+	capture_cooldown -=1; 	
+}
+
+image_xscale *= 56/64;
 if (place_meeting(x, y, obj_crate) && collisons)
 {
 	//instance_destroy();
 	collisons = false;
 	layer = layer_get_name("game");
-	vsp -= 7;
-	hsp = 0;
-	
+	vsp -= 8;
 }
-image_xscale /= 0.8;
+image_xscale /= 56/64;
+
+if (!collisons)
+{
+	hsp = 3 * sign(hsp);
+}
+
+// Restart if character falls below map
+if (y > 1024)
+{
+	room_restart();
+}
