@@ -1,17 +1,32 @@
 // Transfer control to another animal
 
+if (capture_cooldown > 0)
+{
+	capture_cooldown -=1; 	
+}
+
 if (place_meeting(x, y, obj_animal) && vsp > 0 && key_shift == 0 && object_index == obj_slimeyboi)
 {
+	
 	var target = instance_place(x, y, obj_animal);
+	var did_capture = false;
+	
 	with (target)
 	{
-		controls_enabled = true;
-		layer = layer_get_id("player");
+		if (capture_cooldown <= 0)
+		{
+			controls_enabled = true;
+			layer = layer_get_id("player");
+			did_capture = true;
+		}
 	}
 	
-	controls_enabled = false;
-	//layer = layer_get_id("animals");
-	instance_destroy();
+	if (did_capture)
+	{
+		controls_enabled = false;
+		//layer = layer_get_id("animals");
+		instance_destroy();
+	}
 }
 
 // Release control
@@ -29,6 +44,7 @@ if (object_index != obj_slimeyboi && controls_enabled)
 			image_xscale = xs;
 		}
 		
+		//capture_cooldown = 60;
 		walksp *= image_xscale;
 		layer = layer_get_id("animals");
 		controls_enabled = false;
