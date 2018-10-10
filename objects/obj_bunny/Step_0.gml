@@ -2,8 +2,6 @@ scr_player();
 
 scr_move(hsp); // General physics script
 
-
-
 // Change sprite depending on player control
 if (controls_enabled)
 {
@@ -11,5 +9,5 @@ if (controls_enabled)
 }
 else
 {
-	//sprite_index = spr_bunny;
+	sprite_index = spr_bunny;
 }

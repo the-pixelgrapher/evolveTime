@@ -1,9 +1,7 @@
 scr_player();
-
+scr_ignite();
 
 scr_move(hsp); // General physics script
-
-
 
 // Change sprite depending on player control
 if (controls_enabled)
