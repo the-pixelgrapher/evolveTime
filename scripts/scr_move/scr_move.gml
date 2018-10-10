@@ -3,7 +3,7 @@ var hsp = argument[0];
 // Basic collisions and gravity
 
 // Calculate Movement
-vsp = vsp + global.grv;
+vsp += global.grv;
 
 #region //  ---- COLLISIONS ----
 
@@ -28,18 +28,6 @@ if (place_meeting(x, y + vsp, obj_solid) && collisons)
 	vsp = 0;
 }
 
-// Avoid being stuck in ground
-/*
-var o = y
-y += 1000;
-
-if (position_meeting(x, 0, obj_solid))
-{
-	vsp += 1;
-}
-
-y -= 1000;
-*/
 
 y = y + vsp;
 

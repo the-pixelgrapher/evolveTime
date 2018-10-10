@@ -85,12 +85,11 @@ if (capture_cooldown > 0)
 image_xscale *= 56/64;
 if (place_meeting(x, y, obj_crate) && collisons)
 {
-	//instance_destroy();
 	collisons = false;
-	layer = layer_get_name("game");
+	layer = layer_get_id("game");
 	vsp -= 8;
 }
-image_xscale /= 56/64;
+image_xscale = 1 * sign(image_xscale);
 
 if (!collisons)
 {
