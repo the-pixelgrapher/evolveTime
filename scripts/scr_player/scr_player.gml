@@ -71,9 +71,21 @@ else
 {
 	hsp = walksp;
 	
-	if (place_meeting(x + hsp, y, obj_solid))
+	if (place_meeting(x + hsp, y, obj_solid) && collisons)
 	{
 		walksp *= -1;
 	}
 }
 #endregion
+
+image_xscale *= 0.8;
+if (place_meeting(x, y, obj_crate) && collisons)
+{
+	//instance_destroy();
+	collisons = false;
+	layer = layer_get_name("game");
+	vsp -= 7;
+	hsp = 0;
+	
+}
+image_xscale /= 0.8;

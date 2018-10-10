@@ -18,7 +18,7 @@ if (place_meeting(x, y, obj_animal) && vsp > 0 && key_shift == 0 && object_index
 
 if (object_index != obj_slimeyboi && controls_enabled)
 {
-	if (key_shift && key_up)
+	if (key_shift)
 	{
 		var xs = image_xscale;
 		
