@@ -43,16 +43,13 @@ if (controls_enabled)
 	scr_capture();
 
 	// Pushing movable objects
-	if (can_push)
-	{
-		scr_push();
-	}
+	if (can_push) {scr_push();}
 	
 	// Breaking breakable objects
-	if (can_break)
-	{
-		scr_break_blocks();
-	}
+	if (can_break) {scr_break_blocks();}
+	
+	// Igniting flammable objects
+	if (can_ignite) {scr_ignite();}
 
 	var move = (key_right - key_left) * controls_enabled;
 	hsp = move * walksp;
@@ -82,12 +79,13 @@ if (capture_cooldown > 0)
 	capture_cooldown -=1; 	
 }
 
+// Kill animal if crushed by crate
 image_xscale *= 56/64;
 if (place_meeting(x, y, obj_crate) && collisons)
 {
 	collisons = false;
 	layer = layer_get_id("game");
-	vsp -= 8;
+	vsp -= 7.75;
 }
 image_xscale = 1 * sign(image_xscale);
 

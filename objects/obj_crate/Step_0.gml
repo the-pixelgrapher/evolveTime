@@ -10,7 +10,3 @@ if (hp <= 0)
 {
  instance_destroy();	
 }
-
-// Debug
-//x = mouse_x;
-//y = mouse_y;

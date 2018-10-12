@@ -1,7 +1,9 @@
-hsp = 0; 
-vsp = 0;
 walksp = 2; // Horizontal movement speed
 jump_height = 7; // Initial speed of jump (positive is up)
+
+// State variables
+hsp = 0; 
+vsp = 0;
 collisons = true;
 capture_cooldown = 0;
 
@@ -12,5 +14,6 @@ queue_jump = false; // Whether this character will autojump once it touches the 
 can_jump = true; // Whether this character can jump
 can_push = true; // Whether this character can push moveable objects
 can_break = false; // Whether this character can break breakable objects
+can_ignite = false; // Whether this character can burn flammable objects
 
 controls_enabled = false; // Whether or not the this object is being controlled
