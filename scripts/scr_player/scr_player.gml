@@ -1,4 +1,4 @@
-// Player step event script
+// Player control script
 
 #region // Grounded check
 if (place_meeting(x, y + 1, obj_solid)) 
@@ -13,7 +13,7 @@ else
 #endregion
 
 #region // Generous jump buffer
-var jump_buffer = 5; // num of steps jump still allowed after leaving ground
+var jump_buffer = 5; // Num of steps jump still allowed after leaving ground
 
 if (!grounded)
 {
@@ -24,6 +24,7 @@ else
 	airtime = 0;
 }
 
+// Do not allow jumping if player leaves platform for too long
 if (airtime >= jump_buffer)
 {
 	jump_armed = false;	
@@ -51,6 +52,7 @@ if (controls_enabled)
 	// Igniting flammable objects
 	if (can_ignite) {scr_ignite();}
 
+	// Horizontal movement calculation
 	var move = (key_right - key_left) * controls_enabled;
 	hsp = move * walksp;
 
@@ -62,7 +64,7 @@ if (controls_enabled)
 	}
 }
 #endregion
-else
+else if (do_walk)
 #region // Walk back and forth
 {
 	hsp = walksp;

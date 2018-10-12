@@ -1,5 +1,4 @@
-scr_player();
-//scr_ignite();
+scr_player(); // Player control script
 
 scr_move(hsp); // General physics script
 

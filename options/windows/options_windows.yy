@@ -25,14 +25,14 @@
     "option_windows_scale": 0,
     "option_windows_sleep_margin": 10,
     "option_windows_splash_screen": "${base_options_dir}\\windows\\splash\\splash.png",
-    "option_windows_start_fullscreen": true,
+    "option_windows_start_fullscreen": false,
     "option_windows_texture_page": "2048x2048",
     "option_windows_use_splash": false,
     "option_windows_version": {
-        "build": 0,
+        "build": 1,
         "major": 0,
-        "minor": 19,
-        "revision": 60
+        "minor": 20,
+        "revision": 62
     },
     "option_windows_vsync": false
 }

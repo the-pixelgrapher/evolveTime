@@ -17,3 +17,4 @@ can_break = true; // Whether this character can break breakable objects
 can_ignite = true; // Whether this character can burn flammable objects
 
 controls_enabled = false; // Whether or not the this object is being controlled
+do_walk = true; // Whether this character walks whilst not being controlled

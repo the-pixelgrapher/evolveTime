@@ -1,4 +1,5 @@
 scr_move(hsp);
+
 scr_fire();
 
 if (on_fire)
@@ -8,5 +9,5 @@ if (on_fire)
 
 if (hp <= 0)
 {
- instance_destroy();	
+	instance_destroy();	
 }

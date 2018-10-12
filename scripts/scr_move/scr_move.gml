@@ -2,7 +2,7 @@ var hsp = argument[0];
 
 // Basic collisions and gravity
 
-// Calculate Movement
+// Calculate gravity
 vsp += global.grv;
 
 #region //  ---- COLLISIONS ----
@@ -27,10 +27,9 @@ if (place_meeting(x, y + vsp, obj_solid) && collisons)
 	}
 	vsp = 0;
 }
-
-
 y = y + vsp;
 
+// Spin character on death
 if (!collisons)
 {
 	image_angle += 8;

@@ -17,7 +17,5 @@ if (on_fire && hp < 30)
 				on_fire = true;
 			}
 		}
-	}
-	
-	
+	}	
 }
