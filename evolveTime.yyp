@@ -503,11 +503,27 @@
             }
         },
         {
+            "Key": "d8104180-038a-4140-8fcf-2cae3993ab38",
+            "Value": {
+                "id": "23b4d517-7744-4869-8332-3ed17daf1733",
+                "resourcePath": "sprites\\spr_water\\spr_water.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dfe466c9-2565-4f5a-9335-a8d587f7356e",
             "Value": {
                 "id": "965dd72e-5e57-4f6f-8f0a-9889237a188d",
                 "resourcePath": "scripts\\scr_fire\\scr_fire.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e7a636ca-a593-4bcf-807f-61133771e1d2",
+            "Value": {
+                "id": "b826015c-ac45-4b67-a178-31410766fa90",
+                "resourcePath": "sprites\\spr_water_top\\spr_water_top.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
