@@ -6,7 +6,6 @@ if (place_meeting(x,y,obj_fluid))
 {
 	can_swim = true;
 }
-
 else 
 	can_swim = false;
 // Amimation

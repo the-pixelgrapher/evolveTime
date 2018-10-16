@@ -22,11 +22,11 @@ do_walk = true; // Whether this character walks whilst not being controlled
 
 // Initialize Objects
 object_fluid        = obj_fluid; 
-density             = 0.7;  
-float_damping       = 0.08; 
+density             = 0.7;		
+float_damping       = 0.08;		
 swim_speed          = 1;
 grav				= 1;
-vsp					= 0 ;
-sink				= true;
-
+vsp					= 0 ; 
+sink				= true;	
+// Most of these are for the buoyancy build
 
