@@ -1,17 +1,15 @@
+if (is_touching_water && can_swim)
 {
-	if (sink = true) 
-	{
-		vsp = 0.5;						// Constant sinking movement
-	}
-	
-	if (key_up)
+	if (key_up && controls_enabled)
 	{
 		sink = false;
-		vsp = jump_height * -0.3 * sign(global.grv);
-		alarm[0] = room_speed * 0.2;	// Enables vertical movement without being slowed
+		vsp -= 1 * sign(global.grv);
+		vsp = clamp(vsp, -3, 100);
+		
+		//alarm[0] = room_speed * 0.2;	
 	}
-	if (key_down)
+	else
 	{
-		vsp = 1.5;
+		vsp = 1.5;	// Constant sinking movement
 	}
 }

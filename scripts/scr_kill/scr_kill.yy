@@ -1,8 +1,8 @@
 {
-    "id": "64a1b88e-8d83-4d75-b01b-1981d08d72fe",
+    "id": "0e0a2618-7e04-4164-9fa8-08ba0cedaf6b",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_swim",
+    "name": "scr_kill",
     "IsCompatibility": false,
     "IsDnD": false
 }

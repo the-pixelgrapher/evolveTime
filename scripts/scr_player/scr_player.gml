@@ -29,6 +29,22 @@ if (airtime >= jump_buffer)
 {
 	jump_armed = false;	
 }
+
+// Water collision check
+if (place_meeting(x,y,obj_fluid))
+{
+	is_touching_water = true;
+	if (!can_swim)
+	{
+		scr_kill();	
+	}
+}
+else
+{
+	is_touching_water = false;
+}
+
+
 #endregion
 
 #region // Control
@@ -53,7 +69,7 @@ if (controls_enabled)
 	if (can_ignite) {scr_ignite();}
 	
 	// Swimming
-	if (can_swim) {scr_swim();}
+	scr_swim();
 
 	// Horizontal movement calculation
 	var move = (key_right - key_left) * controls_enabled;
@@ -84,20 +100,13 @@ if (capture_cooldown > 0)
 	capture_cooldown -=1; 	
 }
 
-// Kill animal if crushed by crate
+// Kill animal if crushed by solid
 image_xscale *= 56/64;
-if (place_meeting(x, y, obj_crate) && collisons)
+if (place_meeting(x, y, obj_solid))
 {
-	collisons = false;
-	layer = layer_get_id("game");
-	vsp -= 7.75;
+	scr_kill();
 }
 image_xscale = 1 * sign(image_xscale);
-
-if (!collisons)
-{
-	hsp = 3 * sign(hsp);
-}
 
 // Restart if character falls below map
 if (y > 1024)

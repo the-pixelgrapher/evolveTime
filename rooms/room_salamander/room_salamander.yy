@@ -83,7 +83,8 @@
         "0cdd9e9b-fcce-4749-adf7-fe36451568ab",
         "1db9584a-acbe-4381-a7d9-cdc01c56bd1e",
         "8588ed8e-4756-4c8b-8848-f0b05e118bd2",
-        "aba1fc0e-a257-4b25-ad7f-2bed6a4eea94"
+        "aba1fc0e-a257-4b25-ad7f-2bed6a4eea94",
+        "d167b91e-b52f-4ccb-ae77-e0da34c67ca5"
     ],
     "IsDnD": false,
     "layers": [
@@ -101,7 +102,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_E774E78","id": "6e554743-59ec-45b7-a323-b2917bffcd94","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_E774E78","objId": "012e9825-62f9-4bd0-b525-24fc089d85b9","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 0,"y": 0}
+{"name": "inst_E774E78","id": "6e554743-59ec-45b7-a323-b2917bffcd94","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_E774E78","objId": "012e9825-62f9-4bd0-b525-24fc089d85b9","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 0,"y": 0},
+{"name": "inst_17D29896","id": "d167b91e-b52f-4ccb-ae77-e0da34c67ca5","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_17D29896","objId": "ef00170a-4676-4e40-beec-7737c26d1610","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 32,"y": 0}
             ],
             "layers": [
 
@@ -442,7 +444,7 @@
     },
     "mvc": "1.0",
     "views": [
-{"id": "ee9c3b99-d769-47f7-8db5-3c30fbda73d4","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
+{"id": "ee9c3b99-d769-47f7-8db5-3c30fbda73d4","hborder": 0,"hport": 720,"hspeed": -1,"hview": 720,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 0,"visible": true,"vspeed": -1,"wport": 1280,"wview": 1280,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "8ed3915e-6eef-4b14-bc9a-86da44a3202d","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "cc494adf-ee11-483d-bd14-715b5c2f5e5e","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "1d6a314a-1195-4904-9735-3b5cf88c9520","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
@@ -454,8 +456,8 @@
     "viewSettings":     {
         "id": "c66aaade-295c-4344-a809-ce5e7d5f2700",
         "clearDisplayBuffer": true,
-        "clearViewBackground": false,
-        "enableViews": false,
+        "clearViewBackground": true,
+        "enableViews": true,
         "inheritViewSettings": false,
         "modelName": "GMRoomViewSettings",
         "mvc": "1.0"

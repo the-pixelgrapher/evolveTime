@@ -1,5 +1,8 @@
 var hsp = argument[0];
 
+
+
+
 // Basic collisions and gravity
 
 // Calculate gravity
@@ -34,6 +37,7 @@ if (!collisons)
 {
 	image_angle += 8;
 }
+
 
 
 #endregion
