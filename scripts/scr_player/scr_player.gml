@@ -51,6 +51,9 @@ if (controls_enabled)
 	
 	// Igniting flammable objects
 	if (can_ignite) {scr_ignite();}
+	
+	// Swimming
+	if (can_swim) {scr_swim();}
 
 	// Horizontal movement calculation
 	var move = (key_right - key_left) * controls_enabled;
