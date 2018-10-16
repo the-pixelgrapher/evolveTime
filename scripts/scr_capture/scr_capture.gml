@@ -15,14 +15,13 @@ if (place_meeting(x, y, obj_animal) && vsp > 0 && key_shift == 0 && object_index
 		{
 			controls_enabled = true;
 			did_capture = true;
-			layer = layer_get_id("player"); // Move to front
+			layer = layer_get_id("player"); // Move to front layer
 		}
 	}
 	
-	// Remove player character if capture was successful
+	// Destroy player character if capture was successful
 	if (did_capture)
 	{
-		controls_enabled = false;
 		instance_destroy();
 	}
 }

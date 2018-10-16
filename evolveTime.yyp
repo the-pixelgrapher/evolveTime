@@ -565,6 +565,14 @@
                 "resourcePath": "views\\fdfa45fd-a5b4-4d11-b4d1-06a04fc78076.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "ffc4ff70-1b9a-4b51-903f-fe01afecfbc8",
+            "Value": {
+                "id": "dcdcf229-414e-412a-86d1-8a00344dfb65",
+                "resourcePath": "objects\\obj_water\\obj_water.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [

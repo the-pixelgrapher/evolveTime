@@ -8,7 +8,3 @@ if (place_meeting(x + sign(hsp), y, obj_crate))
 		on_fire = true;
 	}
 }
-else
-{
-	
-}
