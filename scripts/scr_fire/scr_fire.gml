@@ -10,9 +10,9 @@ if (on_fire && hp < 30)
 		if (i == 2) {cx = -2; cy = +0;} // left
 		if (i == 3) {cx = +0; cy = -2;} // up
 		
-		if (place_meeting(x + cx, y + cy, obj_crate))
+		if (place_meeting(x + cx, y + cy, obj_flammable))
 		{
-			with (instance_place(x + cx, y + cy, obj_crate))
+			with (instance_place(x + cx, y + cy, obj_flammable))
 			{
 				on_fire = true;
 			}

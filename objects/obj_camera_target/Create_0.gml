@@ -1,7 +1,9 @@
 object_follow = obj_slimeyboi;
-follow_x = obj_slimeyboi.x;
-x = 640;
+follow_x = obj_goal.x;
+x = follow_x;
 y = 360;
+
+lerp_speed = 0.01;
 
 camera = camera_create();
 
