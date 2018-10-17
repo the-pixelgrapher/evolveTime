@@ -101,7 +101,7 @@ if (capture_cooldown > 0)
 }
 
 // Kill animal if crushed by solid
-image_xscale *= 56/64;
+image_xscale *= 54/64;
 if (place_meeting(x, y, obj_solid))
 {
 	scr_kill();
