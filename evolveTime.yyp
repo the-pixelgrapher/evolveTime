@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "1b098874-79e9-4770-b96f-ced3b19356c5",
+            "Value": {
+                "id": "a450833b-1dad-47e6-ae1f-4d43aa99cde2",
+                "resourcePath": "rooms\\room_turtle\\room_turtle.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "21f5d0f5-8fa1-4581-b18e-cac7e7c7981b",
             "Value": {
                 "id": "981b1e27-8b1d-4652-80f8-e23e94e0e0a5",
