@@ -11,3 +11,11 @@ else
 {
 	sprite_index = spr_bunny;
 }
+
+if (room == 5)
+{
+	if (global.level_complete == true)
+	{
+		room_goto_next();
+	}
+}
