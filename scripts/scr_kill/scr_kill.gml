@@ -3,7 +3,7 @@ if (collisons)
 {
 	collisons = false;
 	layer = layer_get_id("game");
-	vsp -= 8;
+	vsp = -7.5;
 	
 	if (!collisons)
 	{

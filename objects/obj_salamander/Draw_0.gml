@@ -14,4 +14,8 @@ else if (hsp < 0)
 if (controls_enabled)
 {
 	draw_sprite(spr_indicator, 0, x, y - 42);
+	if (on_fire)
+	{
+		draw_sprite_ext(spr_fire, index, x - 16, y - 31, 0.5, 0.5, 0, c_white, 1);
+	}
 }

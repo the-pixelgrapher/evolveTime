@@ -1,4 +1,4 @@
-alarm[0] = 90;				// Time before camera focuses on player
+alarm[0] = 75;				// Time before camera focuses on player
 
 object_follow = obj_goal;	// Current camera target object
 

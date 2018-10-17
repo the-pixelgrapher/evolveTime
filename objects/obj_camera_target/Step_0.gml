@@ -6,7 +6,7 @@ x = lerp(x, follow_x, lerp_speed);
 
 // Snap to player when attempting to move
 scr_controls();
-if (key_left || key_right || key_up)
+if (max(key_left_p, key_right_p, key_up_p) && alarm[0] < 60)
 {
 	if (!is_player_focused)
 	{

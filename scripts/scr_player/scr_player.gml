@@ -66,7 +66,13 @@ if (controls_enabled)
 	if (can_break) {scr_break_blocks();}
 	
 	// Igniting flammable objects
-	if (can_ignite) {scr_ignite();}
+	if (can_ignite) 
+	{
+		if (key_down_p)
+		{
+			on_fire = !on_fire;
+		}
+	}
 	
 	// Swimming
 	scr_swim();
