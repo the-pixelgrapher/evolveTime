@@ -1,9 +1,11 @@
-object_follow = obj_slimeyboi;
-follow_x = obj_goal.x;
+alarm[0] = 90;
+object_follow = obj_goal;
+follow_x = clamp(object_follow.x, 640, room_width-640);
 x = follow_x;
 y = 360;
 
-lerp_speed = 0.01;
+lerp_speed = 0.04;
+is_player_focused = false;
 
 camera = camera_create();
 
