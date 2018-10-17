@@ -1,5 +1,5 @@
 // Transfer control to another animal on landing
-if (collisons)
+if (collisons && obj_camera_target.alarm[0] == -1)
 {
 
 	if (place_meeting(x, y, obj_animal) && vsp > 0 && key_shift == 0 && object_index == obj_slimeyboi)
