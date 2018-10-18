@@ -1,7 +1,6 @@
 // Transfer control to another animal on landing
 if (collisons && obj_camera_target.alarm[0] == -1)
 {
-
 	if (place_meeting(x, y, obj_animal) && vsp > 0 && key_shift == 0 && object_index == obj_slimeyboi)
 	{
 		// Get ID of colliding animal
@@ -15,6 +14,7 @@ if (collisons && obj_camera_target.alarm[0] == -1)
 			// Capture animal if cooldown has expired
 			if (capture_cooldown <= 0)
 			{
+				scr_screen_shake(2,10);
 				controls_enabled = true;
 				did_capture = true;
 				layer = layer_get_id("player"); // Move to front layer
@@ -34,6 +34,7 @@ if (collisons && obj_camera_target.alarm[0] == -1)
 	{
 		if (key_shift)
 		{
+			scr_screen_shake(2,10);
 			var xs = image_xscale;
 		
 			with (instance_create_layer(x, y, "player", obj_slimeyboi))

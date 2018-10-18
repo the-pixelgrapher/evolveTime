@@ -16,6 +16,15 @@ if (max(key_left_p, key_right_p, key_up_p) && alarm[0] < 60)
 	lerp_speed = 0.2;
 }
 
+// Keep the camera within the room, only reduces not completely working
+x = clamp(x,view_w_half+buff,room_width-view_w_half);
+y = clamp(y,view_h_half+buff,room_height-view_h_half);
+
+// Screen shake
+x += random_range(-shake_remain,shake_remain);
+y += random_range(-shake_remain,shake_remain);
+shake_remain = max(0,shake_remain-((1/shake_length)*shake_magnitude));
+
 // Update camera
 var view = matrix_build_lookat(x, y, -16, x, y, 0, 0, 1, 0);
 camera_set_view_mat(camera, view);
