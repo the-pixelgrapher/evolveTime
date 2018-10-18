@@ -3,7 +3,7 @@ follow_x = clamp(object_follow.x, 640, room_width-640);
 
 // Smooth camera movement
 x = lerp(x, follow_x, lerp_speed);
-y = 320;
+y = 344;
 
 // Snap to player when attempting to move
 scr_controls();

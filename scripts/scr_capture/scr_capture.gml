@@ -39,7 +39,7 @@ if (collisons && obj_camera_target.alarm[0] == -1)
 		
 			with (instance_create_layer(x, y, "player", obj_slimeyboi))
 			{
-				vsp = jump_height * -1 * sign(global.grv); // Jump on release
+				vsp = 6.5 * -1 * sign(global.grv); // Jump on release
 				image_xscale = xs; // Retain sprite flip of player on release
 				obj_camera_target.object_follow = id;
 			}
