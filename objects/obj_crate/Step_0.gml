@@ -10,5 +10,6 @@ if (on_fire)
 
 if (hp <= 0)
 {
-	instance_destroy();	
+	instance_destroy();
+	scr_screen_shake(2, 5);
 }

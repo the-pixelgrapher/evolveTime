@@ -14,7 +14,7 @@ if (collisons && obj_camera_target.alarm[0] == -1)
 			// Capture animal if cooldown has expired
 			if (capture_cooldown <= 0)
 			{
-				scr_screen_shake(1.5,8);
+				scr_screen_shake(2, 5);
 				controls_enabled = true;
 				did_capture = true;
 				layer = layer_get_id("player"); // Move to front layer

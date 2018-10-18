@@ -7,7 +7,7 @@ if (place_meeting(x + hsp, y, obj_crate))
 	// Get ID of block being pushed
 	var this_crate = instance_place(x + hsp, y, obj_crate);
 	
-	// Halve movement speed when pushing
+	// Reduce movement speed when pushing
 	with (this_crate)
 	{
 		scr_move(this.hsp/1.5);
