@@ -14,7 +14,7 @@ if (collisons && obj_camera_target.alarm[0] == -1)
 			// Capture animal if cooldown has expired
 			if (capture_cooldown <= 0)
 			{
-				scr_screen_shake(2,10);
+				scr_screen_shake(1.5,8);
 				controls_enabled = true;
 				did_capture = true;
 				layer = layer_get_id("player"); // Move to front layer
@@ -34,7 +34,7 @@ if (collisons && obj_camera_target.alarm[0] == -1)
 	{
 		if (key_shift)
 		{
-			scr_screen_shake(2,10);
+			scr_screen_shake(1.5,8);
 			var xs = image_xscale;
 		
 			with (instance_create_layer(x, y, "player", obj_slimeyboi))
