@@ -14,10 +14,10 @@ else
 }
 */
 
-// Walk animation
+// Amimation
 image_speed = 1;
 
-if (hsp == 0)
+if (hsp == 0 || !grounded)
 {
 	image_index = 0;
 }

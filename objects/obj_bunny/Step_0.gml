@@ -12,6 +12,15 @@ else
 	sprite_index = spr_bunny;
 }
 
+// Amimation
+image_speed = 1;
+
+if (hsp == 0 || !grounded)
+{
+	image_index = 0;
+}
+
+// level 7a failsafe
 if (room == 5 && x > 1280 && y > 400)
 {
 	if (global.level_complete)

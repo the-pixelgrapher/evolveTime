@@ -10,6 +10,7 @@ else if (hsp < 0)
 	image_xscale = -1;
 }
 
+
 // Draw arrow above controlled character
 if (controls_enabled)
 {

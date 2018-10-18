@@ -15,4 +15,12 @@ if (controls_enabled)
 else
 {
 	sprite_index = spr_salamander;
+	
+	// Amimation
+	image_speed = 1;
+	
+	if (hsp == 0 || !grounded)
+	{
+		image_index = 0;
+	}
 }
