@@ -12,9 +12,9 @@ else
 	sprite_index = spr_bunny;
 }
 
-if (room == 5)
+if (room == 5 && x > 1280)
 {
-	if (global.level_complete == true)
+	if (global.level_complete)
 	{
 		x = 1632;
 	}
