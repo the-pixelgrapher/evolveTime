@@ -16,6 +16,7 @@ if (room == 5)
 {
 	if (global.level_complete == true)
 	{
-		room_goto_next();
+		x = 1632;
 	}
+	
 }
