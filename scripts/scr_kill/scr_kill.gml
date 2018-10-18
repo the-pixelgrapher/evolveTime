@@ -1,4 +1,5 @@
 // Kill animal
+
 if (collisons)
 {
 	scr_screen_shake(8,15)
@@ -10,5 +11,4 @@ if (collisons)
 	{
 		hsp = 2 * sign(hsp);
 	}
-
 }

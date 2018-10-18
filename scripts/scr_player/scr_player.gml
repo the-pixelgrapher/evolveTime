@@ -1,7 +1,7 @@
 // Player control script
 
 #region // Grounded check
-if (place_meeting(x, y + 1, obj_solid)) 
+if (place_meeting(x, y + 1, obj_solid) && collisons) 
 {
 	grounded = true;
 	jump_armed = true;
