@@ -1,6 +1,15 @@
-scr_player(); // Player control script
+scr_player();
+
+scr_move(hsp);
+
+scr_controls();
+
+/*
+var move = (key_right - key_left) * controls_enabled;
+	hsp = move * walksp;
 
 scr_move(hsp); // General physics script
+*/
 
 // Change sprite depending on player control
 /*

@@ -44,7 +44,6 @@ else
 	is_touching_water = false;
 }
 
-
 #endregion
 
 #region // Control
