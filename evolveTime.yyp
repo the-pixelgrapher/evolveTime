@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "8cc5e878-4bf4-4903-8ad8-45b6c470f5ed",
+            "Value": {
+                "id": "972d42bb-0ad5-46ba-a86e-76bd877ca839",
+                "resourcePath": "scripts\\scr_wallclimb\\scr_wallclimb.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "922a171a-64c4-4553-aeda-1f82f9c94893",
             "Value": {
                 "id": "c1eccccf-fe01-47f2-b1b5-5e0291ba598d",
@@ -755,7 +763,8 @@
         "dfe466c9-2565-4f5a-9335-a8d587f7356e",
         "64a1b88e-8d83-4d75-b01b-1981d08d72fe",
         "0e0a2618-7e04-4164-9fa8-08ba0cedaf6b",
-        "e048bd2f-75ab-4300-9295-b8c11362fe4c"
+        "e048bd2f-75ab-4300-9295-b8c11362fe4c",
+        "8cc5e878-4bf4-4903-8ad8-45b6c470f5ed"
     ],
     "tutorial": ""
 }
