@@ -1,5 +1,3 @@
-wallclimb=false
-
 walksp = 3; // Horizontal movement speed
 jump_height = 9.5; // Initial speed of jump (positive is up)
 
