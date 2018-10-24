@@ -419,7 +419,7 @@
             "id": "34659d68-55c8-4ca8-9e3e-2caf622a7df4",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4294309365 },
+            "colour": { "Value": 4294967295 },
             "depth": 800,
             "grid_x": 32,
             "grid_y": 32,
@@ -438,7 +438,7 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "00000000-0000-0000-0000-000000000000",
+            "spriteId": "88ba135f-6fa0-48ab-a962-e7de05e2dc0a",
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
@@ -446,7 +446,7 @@
             "vspeed": 0,
             "vtiled": false,
             "x": 0,
-            "y": 0
+            "y": -130
         }
     ],
     "modelName": "GMRoom",
