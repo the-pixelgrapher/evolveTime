@@ -4,8 +4,6 @@ scr_move(hsp);
 
 scr_controls();
 
-scr_wallclimb();
-
 /*
 var move = (key_right - key_left) * controls_enabled;
 	hsp = move * walksp;
