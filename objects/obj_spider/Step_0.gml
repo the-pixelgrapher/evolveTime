@@ -4,10 +4,11 @@ scr_move(hsp);
 
 scr_controls();
 
+scr_wall_climb();
+
 /*
 var move = (key_right - key_left) * controls_enabled;
 	hsp = move * walksp;
-
 scr_move(hsp); // General physics script
 */
 

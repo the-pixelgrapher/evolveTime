@@ -6,6 +6,7 @@ hsp = 0;
 vsp = 0;
 collisons = true;
 capture_cooldown = 0;
+wallclimb=false;
 
 airtime = 0; // Num of steps in air for
 jump_armed = false; // Whether the player can jump at current step

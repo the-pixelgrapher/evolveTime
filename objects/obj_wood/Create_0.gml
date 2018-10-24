@@ -1,4 +1,4 @@
-collisons = true;
+scr_collisons = true;
 hsp = 0; 
 vsp = 0;
 
