@@ -16,9 +16,9 @@ if (collisons && obj_camera_target.alarm[0] == -1)
 			{
 				scr_screen_shake(2, 5);
 				controls_enabled = true;
-				did_capture = true;
 				layer = layer_get_id("player"); // Move to front layer
 				obj_camera_target.object_follow = id;
+				did_capture = true;
 			}
 		}
 	
