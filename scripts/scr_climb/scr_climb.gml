@@ -1,5 +1,6 @@
 //Climb State
 
+
 if(!place_meeting(x, y, object_climb))                             //If the player falls off the ladder then
 {                                                                   //change back to the normal state.
     state = PLAYER_STATE.normal;
@@ -12,14 +13,14 @@ vsp = 0;                                                         //we don't want
 if(key_up && collision_line(bbox_left, bbox_top - 1,              //Like in the normal state, This collision
     bbox_right, bbox_top -1, object_climb, false, true) != noone)  //line checks across the top of the player
 {                                                                   //mask to ensure he doesnt climb obove the
-    vsp -= climb_speed;                                          //top of the ladder.
+    vsp -= climb_speed * controls_enabled;                                          //top of the ladder.
 }
 if(key_down)
 {
     vsp += climb_speed;
 }
 
-if(vsp == 0)                                                     //Only allow horizontal movement when not
+if(vsp == 0 && controls_enabled)                                                     //Only allow horizontal movement when not
 {                                                                   //climbing.
     if(key_left)
     {

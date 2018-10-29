@@ -1,6 +1,6 @@
 scr_move(hsp);
 
-if(object_climb != noone && can_climb)
+if(object_climb != noone && can_climb && controls_enabled)
     {
         if(key_up || (key_down && !grounded))
         {
