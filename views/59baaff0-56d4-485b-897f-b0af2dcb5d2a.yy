@@ -8,7 +8,8 @@
         "a00853e6-2792-417d-ae57-eb5cb098e959",
         "cba064d7-bd0b-482a-aee7-38b959022ecf",
         "d5fe8fea-0ed6-45d0-b877-fcd4448707ae",
-        "cc37e91f-9cad-43b1-87f5-814224abcf28"
+        "cc37e91f-9cad-43b1-87f5-814224abcf28",
+        "50f37e3d-089b-45ac-98c7-d55a6954b73f"
     ],
     "filterType": "GMSprite",
     "folderName": "interactable",

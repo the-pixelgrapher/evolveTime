@@ -1,10 +1,7 @@
+scr_controls();
 scr_player();
 
-scr_move(hsp);
-
-scr_controls();
-
-scr_wall_climb();
+script_execute(state);
 
 /*
 var move = (key_right - key_left) * controls_enabled;
@@ -27,7 +24,7 @@ else
 // Amimation
 image_speed = 1;
 
-if (hsp == 0 || !grounded)
+if (hsp == 0 && vsp == 0)
 {
 	image_index = 0;
 }
