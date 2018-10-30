@@ -21,17 +21,18 @@ can_break = false; // Whether this character can break breakable objects
 can_ignite = false; // Whether this character can burn flammable objects
 can_swim = false; // Whether this character can swim
 can_climb = true;
-object_climb = obj_web
+object_climb = obj_web 
 
 controls_enabled = false; // Whether or not the this object is being controlled
 do_walk = true; // Whether this character walks whilst not being controlled
 
-//Swimming 
+// Swimming 
 sink				= true;	
 sink_delay			= 0;
 is_touching_water	= false;
-state = PLAYER_STATE.normal;
 
+// States for climbing
+state = PLAYER_STATE.normal;
 enum PLAYER_STATE
 {
 	normal = scr_normal,
