@@ -91,7 +91,7 @@ if (controls_enabled)
 else if (do_walk)
 #region // Walk back and forth
 {
-	hsp = walksp;
+	hsp = round(walksp/2);
 
 	if (place_meeting(x + hsp, y, obj_solid) && collisons)
 	{
