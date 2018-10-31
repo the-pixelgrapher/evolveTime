@@ -17,7 +17,7 @@ with (crate)
 		}
 	}
 		
-	if (place_meeting(x, y - 1, obj_crate))
+	if (place_meeting(x, y - 1, obj_crate) && !place_meeting(x + hsign, y, obj_solid))
 	{
 		var crate_v2 = instance_place(x, y - 1, obj_crate);
 		with (crate_v2)
