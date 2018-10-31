@@ -1,35 +1,51 @@
 //Climb State
 
-
-if(!place_meeting(x, y, object_climb))                             //If the player falls off the ladder then
-{                                                                   //change back to the normal state.
+// If not touching a ladder or controls not enabled, resume normal state
+if(!place_meeting(x, y, object_climb) || !controls_enabled)        
+{                                                                  
     state = PLAYER_STATE.normal;
     exit;
 }
 
-hsp = 0;                                                         //If the user doesn't make any key presses
-vsp = 0;                                                         //we don't want to move at all.
+// Initializing movement so the player doesnt fall if not moving
+hsp = 0;                                                         
+vsp = 0;                                                         
 
-if(key_up && collision_line(bbox_left, bbox_top - 1,              //Like in the normal state, This collision
-    bbox_right, bbox_top -1, object_climb, false, true) != noone)  //line checks across the top of the player
-{                                                                   //mask to ensure he doesnt climb obove the
-    vsp -= climb_speed * controls_enabled;                                          //top of the ladder.
-}
-if(key_down)
+// Collision to stop the player from going over the top of the web
+
+//if(key_up && collision_line(bbox_left, bbox_top - 1,              
+//    bbox_right, bbox_top -1, object_climb, false, true) != noone) 
+
+// ~~ Press ctrl to drop off the web ~~
+if(key_ctrl && controls_enabled)
 {
-    vsp += climb_speed;
+	state = PLAYER_STATE.normal;
+	exit;
 }
 
-if(vsp == 0 && controls_enabled)                                                     //Only allow horizontal movement when not
-{                                                                   //climbing.
+// ~~ Web Movement ~~ 
+if(controls_enabled && place_meeting(x,y, object_climb))                                                  
+{              
+	// ~~ LEFT ~~
     if(key_left)
     {
         hsp -= climb_speed;
     }
-    if(key_right)
+	// ~~ RIGHT ~~
+	if(key_right)
     {
         hsp += climb_speed;
     }
+	// ~~ UP ~~
+	if(key_up)
+	{                                                                 
+		vsp -= climb_speed;                       
+	}
+	// ~~ DOWN ~~
+	if(key_down)
+	{
+		vsp += climb_speed;
+	}
 }
 
 if(vsp != 0)
@@ -45,6 +61,7 @@ else
     // idle animation
 }
 
+// ~~ Recreate movement / collision system within this climbing state ~~
 if (place_meeting(x, y + 1, obj_solid) && collisons) 
 {
 	grounded = true;

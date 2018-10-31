@@ -154,7 +154,8 @@
         "19a050d5-46a8-449e-89b3-f383cb1547ba",
         "2bb388b3-87c5-4472-b2a3-0bb730812932",
         "d8f59470-7659-428b-b212-0987e874d68b",
-        "3967cc71-d94d-4649-8303-d6f3cf98b095"
+        "3967cc71-d94d-4649-8303-d6f3cf98b095",
+        "b2d36fa3-da5e-415a-84c3-03aaa87178e2"
     ],
     "IsDnD": false,
     "layers": [
@@ -273,7 +274,7 @@
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
-            "hierarchyVisible": false,
+            "hierarchyVisible": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -307,7 +308,7 @@
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
             "userdefined_depth": false,
-            "visible": false
+            "visible": true
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
@@ -484,7 +485,8 @@
 {"name": "inst_1C9E830F","id": "19a050d5-46a8-449e-89b3-f383cb1547ba","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1C9E830F","objId": "81c5aed8-6d03-4b94-9b8d-27a9269e2efe","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 1280,"y": 192},
 {"name": "inst_4FDAB3D9","id": "2bb388b3-87c5-4472-b2a3-0bb730812932","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4FDAB3D9","objId": "81c5aed8-6d03-4b94-9b8d-27a9269e2efe","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 1344,"y": 192},
 {"name": "inst_7426D9D7","id": "d8f59470-7659-428b-b212-0987e874d68b","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7426D9D7","objId": "81c5aed8-6d03-4b94-9b8d-27a9269e2efe","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 1280,"y": 256},
-{"name": "inst_7E6D6FF2","id": "3967cc71-d94d-4649-8303-d6f3cf98b095","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7E6D6FF2","objId": "81c5aed8-6d03-4b94-9b8d-27a9269e2efe","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 1344,"y": 256}
+{"name": "inst_7E6D6FF2","id": "3967cc71-d94d-4649-8303-d6f3cf98b095","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7E6D6FF2","objId": "81c5aed8-6d03-4b94-9b8d-27a9269e2efe","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 1344,"y": 256},
+{"name": "inst_74A25300","id": "b2d36fa3-da5e-415a-84c3-03aaa87178e2","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_74A25300","objId": "81c5aed8-6d03-4b94-9b8d-27a9269e2efe","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 256,"y": 320}
             ],
             "layers": [
 
@@ -572,16 +574,16 @@
                 "TileSerialiseData": [
                     2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483648,
                     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483648,
-                    0,0,0,12,13,14,0,0,10,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,2147483648,
-                    1,0,0,0,0,0,12,13,14,0,0,0,0,0,0,0,0,4,3,3,3,1,0,0,0,0,
-                    9,0,0,10,0,0,0,0,0,0,0,0,12,13,13,13,13,16,16,16,16,16,0,2,3,3,
-                    6,13,13,8,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,5,
-                    9,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,4,0,5,
-                    9,0,0,0,0,2,3,3,3,3,3,3,1,0,0,0,0,0,2,7,0,3,3,7,5,5,
-                    9,0,0,0,2,7,5,5,5,5,5,5,9,0,0,0,0,0,4,0,0,0,0,5,5,5,
-                    6,3,3,3,7,5,5,5,5,5,5,5,9,0,0,0,0,0,4,0,0,0,0,5,5,5,
-                    0,0,0,0,5,5,5,5,5,5,5,5,6,3,3,3,3,3,7,5,5,5,5,5,5,5,
-                    5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+                    0,0,0,14,15,16,0,0,12,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,2147483648,
+                    1,0,0,0,0,0,14,15,20,0,0,0,0,0,0,0,0,4,3,3,3,1,0,0,0,0,
+                    10,0,0,12,0,0,0,0,0,0,0,0,14,15,15,15,15,19,19,19,19,20,0,2,3,3,
+                    30,15,15,19,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,6,6,
+                    10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,4,6,6,
+                    10,0,0,0,0,2,3,3,3,3,3,3,1,0,0,0,0,0,2,8,7,3,3,8,6,6,
+                    10,0,0,0,2,8,6,6,6,6,6,6,10,0,0,0,0,0,4,6,6,6,6,6,6,6,
+                    7,3,3,3,8,6,6,6,6,6,6,6,10,0,0,0,0,0,4,6,6,6,6,6,6,6,
+                    6,6,6,6,6,6,6,6,6,6,6,6,7,3,3,3,3,3,8,6,6,6,6,6,6,6,
+                    6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6
                 ]
             },
             "tilesetId": "810c5c8f-17ec-4bda-8eb9-2a8af89148a2",
@@ -646,13 +648,13 @@
                     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
                     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
                     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-                    0,0,0,5,5,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-                    0,0,0,5,5,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-                    0,0,0,5,5,5,5,5,5,0,0,0,5,5,5,5,5,5,5,5,5,5,5,5,5,0,
-                    0,5,5,5,5,5,5,5,5,0,0,0,5,5,5,5,5,5,5,5,5,5,5,5,5,0,
-                    5,5,5,5,5,5,0,0,0,0,0,0,5,5,5,5,5,5,5,5,5,5,5,5,0,0,
-                    5,5,5,5,5,0,0,0,0,0,0,0,0,5,5,5,5,5,5,5,5,5,5,0,0,0,
-                    5,5,5,5,0,0,0,0,0,0,0,0,0,5,5,5,5,5,5,5,5,5,5,0,0,0,
+                    0,0,0,6,6,6,6,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+                    0,0,0,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,
+                    0,0,0,6,6,6,6,6,6,0,0,0,6,6,6,6,6,6,6,6,6,6,5,5,5,0,
+                    0,6,6,6,6,6,6,6,6,0,0,0,6,6,6,6,6,6,6,6,6,6,5,5,5,0,
+                    5,6,6,6,6,5,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,6,5,5,0,0,
+                    5,6,6,6,5,0,0,0,0,0,0,0,0,6,6,6,6,6,5,5,5,5,5,0,0,0,
+                    5,5,5,5,0,0,0,0,0,0,0,0,0,6,6,6,6,6,5,5,5,5,5,0,0,0,
                     5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
                     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
                 ]
