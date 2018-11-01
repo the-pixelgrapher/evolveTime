@@ -17,11 +17,11 @@ vsp = 0;
 //    bbox_right, bbox_top -1, object_climb, false, true) != noone) 
 
 // ~~ Press ctrl to drop off the web ~~
-/*if(key_ctrl && controls_enabled)
+if(key_spacebar)
 {
 	state = PLAYER_STATE.normal;
 	exit;
-} */
+}
 
 // ~~ Web Movement ~~ 
 if(controls_enabled && place_meeting(x,y, object_climb))                                                  
@@ -37,12 +37,12 @@ if(controls_enabled && place_meeting(x,y, object_climb))
         hsp += climb_speed;
     }
 	// ~~ UP ~~
-	if(key_up)
+	if(key_w)
 	{                                                                 
 		vsp -= climb_speed;                       
 	}
 	// ~~ DOWN ~~
-	if(key_down)
+	if(key_s)
 	{
 		vsp += climb_speed;
 	}

@@ -37,7 +37,7 @@ if (hsp == 0 && vsp == 0)
 	image_index = 0;
 }
 
-if (key_ctrl && can_shoot_web)
+if (key_ctrl && can_shoot_web && grounded)
 {
 	can_shoot_web = false;
 	projectile = instance_create_layer(x,y,"ins_env_collision",obj_web);	
