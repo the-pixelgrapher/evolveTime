@@ -13,5 +13,5 @@ else if (hsp < 0)
 // Draw arrow above controlled character
 if (controls_enabled)
 {
-	draw_sprite(spr_indicator, 0, x, y - 42);
+	draw_sprite(spr_indicator, 0, x, y - 48);
 }

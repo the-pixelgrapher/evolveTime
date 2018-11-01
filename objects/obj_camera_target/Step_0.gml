@@ -7,7 +7,7 @@ y = 384;
 
 // Snap to player when attempting to move
 scr_controls();
-if (max(key_left_p, key_right_p, key_up_p) && alarm[0] < 60)
+if (max(key_left_p, key_right_p, key_jump) && alarm[0] < 60)
 {
 	if (!is_player_focused)
 	{

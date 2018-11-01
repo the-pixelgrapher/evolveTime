@@ -10,8 +10,9 @@ key_spacebar = keyboard_check(vk_space);
 key_s = keyboard_check(ord("S"));
 key_w = keyboard_check(ord("W"));
 
+key_up_p = max( keyboard_check_pressed(vk_up), keyboard_check_pressed(ord("W")) );
 key_down_p = max( keyboard_check_pressed(vk_down), keyboard_check_pressed(ord("S")) );
 key_left_p = max( keyboard_check_pressed(vk_left), keyboard_check_pressed(ord("A")) );
 key_right_p = max( keyboard_check_pressed(vk_right), keyboard_check_pressed(ord("D")) );
-key_up_p = max( keyboard_check_pressed(vk_space),keyboard_check_pressed(vk_up), keyboard_check_pressed(ord("W")) );
+key_jump = max( keyboard_check_pressed(vk_space),keyboard_check_pressed(vk_up), keyboard_check_pressed(ord("W")) );
 key_act_p = max ( keyboard_check_pressed(vk_space), keyboard_check_pressed(vk_enter) );

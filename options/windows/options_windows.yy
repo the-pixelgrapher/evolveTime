@@ -29,10 +29,10 @@
     "option_windows_texture_page": "2048x2048",
     "option_windows_use_splash": false,
     "option_windows_version": {
-        "build": 0,
+        "build": 3,
         "major": 0,
         "minor": 42,
-        "revision": 141
+        "revision": 143
     },
     "option_windows_vsync": false
 }

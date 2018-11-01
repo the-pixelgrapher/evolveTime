@@ -1,5 +1,7 @@
 scr_controls();
 
+//image_index += 1/60;
+
 select -= key_up_p;
 select += key_down_p;
 if select > 3 {select = 0;}
@@ -12,10 +14,8 @@ if (key_act_p)
 		room_goto(1);
 	}
 	
-	if (select = 3)
+	if (select == 3)
 	{
 		game_end();
 	}
-
-	
 }

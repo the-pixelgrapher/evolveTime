@@ -15,7 +15,7 @@ else
 // Amimation
 image_speed = 1;
 
-if (hsp == 0 || !grounded)
+if (hsp == 0)
 {
 	image_index = 0;
 }

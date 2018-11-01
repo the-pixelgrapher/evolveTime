@@ -81,7 +81,7 @@ if (controls_enabled)
 	hsp = move * walksp;
 
 	// Jumping
-	if (key_up_p && jump_armed && can_jump && controls_enabled)
+	if (key_jump && jump_armed && can_jump && controls_enabled)
 	{
 		vsp = jump_height * -1 * sign(global.grv);
 		jump_armed = false;
