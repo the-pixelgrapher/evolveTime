@@ -2,13 +2,13 @@
     "id": "81c5aed8-6d03-4b94-9b8d-27a9269e2efe",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Wall",
+    "name": "obj_wall",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "89e5948d-eb87-4584-bd5f-e4a5c435251c",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -25,5 +25,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "13d41d0c-9296-4e24-9a11-b4a307d3b702",
-    "visible": true
+    "visible": false
 }

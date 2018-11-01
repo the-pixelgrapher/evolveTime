@@ -8,7 +8,7 @@
     "option_windows_company_info": "HeptaVector",
     "option_windows_copy_exe_to_dest": false,
     "option_windows_copyright_info": "(c) 2018 HeptaVector",
-    "option_windows_description_info": "A platforming puzzle game evolving animals",
+    "option_windows_description_info": "Evolve TIme",
     "option_windows_display_cursor": true,
     "option_windows_display_name": "Evolve Time",
     "option_windows_enable_steam": false,
@@ -30,9 +30,9 @@
     "option_windows_use_splash": false,
     "option_windows_version": {
         "build": 0,
-        "major": 1,
-        "minor": 0,
-        "revision": 0
+        "major": 0,
+        "minor": 42,
+        "revision": 141
     },
     "option_windows_vsync": false
 }
