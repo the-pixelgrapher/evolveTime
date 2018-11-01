@@ -4,10 +4,12 @@ draw_self();
 if (hsp > 0)
 {
 	image_xscale = 1;
+	projectile_dir = 0;
 }
 else if (hsp < 0)
 {
 	image_xscale = -1;
+	projectile_dir = 180;
 }
 
 // Draw arrow above controlled character
