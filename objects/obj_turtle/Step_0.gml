@@ -11,3 +11,26 @@ else
 {
 	sprite_index = spr_turtle;
 }
+
+if(controls_enabled)
+{
+	if (key_up && !grounded && !place_meeting(x,y,obj_fluid))
+	{
+		draw_yscale = 1.5;
+		draw_xscale =.75;
+	}
+	draw_xscale = lerp(draw_xscale, 1, .1);
+	draw_yscale = lerp(draw_yscale, 1, .1);
+
+
+	if (place_meeting(x,y+1,obj_solid) && !place_meeting(x,yprevious +1, obj_solid))
+	{
+		draw_yscale = .75;
+		draw_xscale = 1.15;
+	}
+}
+else
+{
+	draw_yscale = 1;
+	draw_xscale = 1;
+}
