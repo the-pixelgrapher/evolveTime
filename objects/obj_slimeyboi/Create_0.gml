@@ -35,4 +35,4 @@ sink				= true;
 sink_delay			= 0;
 is_touching_water	= false;
 // Most of these are for the buoyancy build
-
+scr_effect_create( 0,x, y, choose(0,90,180,270));
