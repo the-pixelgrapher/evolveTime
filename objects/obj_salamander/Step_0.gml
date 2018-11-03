@@ -29,8 +29,8 @@ if(controls_enabled)
 {
 	if (key_up && !grounded)
 	{
-		draw_yscale = 1.5;
-		draw_xscale =.75;
+		draw_yscale = 1.2;
+		draw_xscale = 0.83;
 	}
 	draw_xscale = lerp(draw_xscale, 1, .1);
 	draw_yscale = lerp(draw_yscale, 1, .1);
