@@ -1,0 +1,1 @@
+can_shoot_flame = true;

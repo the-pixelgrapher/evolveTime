@@ -3,16 +3,8 @@ scr_player(); // Player control script
 scr_move(hsp); // General physics script
 
 // Change sprite depending on player control
-if (controls_enabled)
-{
-	if (on_fire)
-	{
-		scr_ignite(); // Ignite flammable objects
-		index += 10/60;
-	}
-	sprite_index = spr_player_salamander_blob;	
-}
-else
+
+if(!controls_enabled)
 {
 	sprite_index = spr_salamander;
 	
@@ -24,7 +16,10 @@ else
 		image_index = 0;
 	}
 }
-
+if(!can_shoot_flame)
+{
+	sprite_index = spr_player_salamander_blob;	
+}
 if(controls_enabled)
 {
 	if (key_up && !grounded)
@@ -41,6 +36,19 @@ if(controls_enabled)
 		draw_yscale = .75;
 		draw_xscale = 1.15;
 	}
+	
+	if (key_ctrl && can_shoot_flame)
+	{
+		can_shoot_flame = false;
+		alarm[0] = 30;
+		if(facing_right)
+		{
+		scr_effect_flame( 1, x+20, y-10, 0);
+		}
+		else
+		scr_effect_flame( 1, x-20, y-10, 0);
+	}
+	
 }
 else
 {

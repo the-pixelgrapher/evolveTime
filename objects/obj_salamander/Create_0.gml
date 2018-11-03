@@ -6,7 +6,7 @@ hsp = 0;
 vsp = 0;
 collisons = true;
 capture_cooldown = 0;
-on_fire = true;
+on_fire = false;
 index = 0;
 
 airtime = 0; // Num of steps in air for
@@ -19,7 +19,8 @@ can_break = true; // Whether this character can break breakable objects
 can_ignite = true; // Whether this character can burn flammable objects
 can_swim = false; // Whether this character can swim
 can_climb = false;
-
+can_shoot_flame = true;
+facing_right = true;
 controls_enabled = false; // Whether or not the this object is being controlled
 do_walk = true; // Whether this character walks whilst not being controlled
 
