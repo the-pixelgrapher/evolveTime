@@ -13,7 +13,10 @@
         "2d4f4d10-f8c3-4bd5-a7f3-adc444f3031c",
         "4c8d73e3-5ca4-491b-80b7-7e51c2a0147e",
         "bfc99a5f-1a2a-45e6-9d74-24e35789df4d",
-        "dbfa1318-a2b1-4ac5-a1fb-5e3fc4838b00"
+        "dbfa1318-a2b1-4ac5-a1fb-5e3fc4838b00",
+        "8f5c34cb-0b1e-4696-86ea-df2ddbc300f7",
+        "c681307e-53e9-4a64-aa37-655fe78e4d24",
+        "4925a97d-0a0d-4000-aa17-b2868335681d"
     ],
     "filterType": "GMSprite",
     "folderName": "characters",

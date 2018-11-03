@@ -13,7 +13,7 @@ if(!controls_enabled)
 	
 	if (hsp == 0 || !grounded)
 	{
-		image_index = 0;
+		sprite_index = spr_salamander_idle;
 	}
 }
 if(!can_shoot_flame)
