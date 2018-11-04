@@ -3,10 +3,6 @@
 if (place_meeting(x, y, obj_animal))
 {
 	global.level_complete = true;
-} 
-else
-{
-	global.level_complete = false;
 }
 
 // Wave(from, to, duration, offset)

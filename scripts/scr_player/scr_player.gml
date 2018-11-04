@@ -1,5 +1,7 @@
 // Player control script
 
+walksp *= !global.level_complete;
+
 #region // Grounded check
 if (place_meeting(x, y + 1, obj_solid) && collisons) 
 {
@@ -47,7 +49,7 @@ else
 #endregion
 
 #region // Control
-if (controls_enabled)
+if (controls_enabled && !global.level_complete)
 {
 	// Ensure walksp is always positive
 	walksp *= sign(walksp);
