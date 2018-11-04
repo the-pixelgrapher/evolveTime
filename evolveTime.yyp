@@ -127,14 +127,6 @@
             }
         },
         {
-            "Key": "088632dc-4110-42a3-8746-b64c27322de7",
-            "Value": {
-                "id": "2383226e-4164-4a56-909e-fb2a76bb8bc2",
-                "resourcePath": "fonts\\fnt_ui_large\\fnt_ui_large.yy",
-                "resourceType": "GMFont"
-            }
-        },
-        {
             "Key": "09379dff-c56c-49cb-be0b-998750631d5d",
             "Value": {
                 "id": "1ba29369-5d36-4ba5-a26d-806aedf16004",
@@ -420,6 +412,14 @@
                 "id": "553b9a31-8585-4153-9e3e-52d26746535d",
                 "resourcePath": "scripts\\scr_capture\\scr_capture.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "597859b3-6133-4315-ba31-65fbd5f8348e",
+            "Value": {
+                "id": "62190e07-071e-453c-88a7-04b606889f63",
+                "resourcePath": "sprites\\spr_logo\\spr_logo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

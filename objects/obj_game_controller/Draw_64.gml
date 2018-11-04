@@ -1,6 +1,5 @@
 if (global.level_complete)
 {
-	draw_set_font(fnt_ui_large);
 	draw_set_halign(1);
 	draw_set_valign(0);
 	draw_sprite(spr_complete_back, 0, 384, y + 190);
