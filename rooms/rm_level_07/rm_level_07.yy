@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_level_07b",
+    "name": "rm_level_07",
     "id": "121a03e1-2262-46d4-bdf2-58ecc1754d30",
     "creationCodeFile": "",
     "inheritCode": false,
