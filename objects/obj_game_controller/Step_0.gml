@@ -1,12 +1,28 @@
+scr_controls();
+time_steps += 1;
+
 // Reset game
 
-if (keyboard_check_pressed(vk_backspace)) {
-	room_restart();
+if (keyboard_check(ord("R")) && !global.level_complete && reset_timer < 1 && time_steps > 60) 
+{
+	reset_timer += 1/45;
 }
+
+if (!keyboard_check(ord("R")) && reset_timer < 1)
+{
+	reset_timer = lerp(reset_timer, 0, 0.25);
+}
+
+if (reset_timer >= 1 && alarm[1] == -1)
+{
+	alarm[1] = room_speed * 1/6;
+}
+
 
 if (keyboard_check_pressed(vk_tab)) {
 	global.grv *= -1;
 }
+
 
 if (global.level_complete)
 {
@@ -17,16 +33,17 @@ if (global.level_complete)
 	}
 }
 
-scr_controls();
+
+// Continue to next level
 
 if (continue_active && continue_timer < 1 && key_act && global.level_complete)
 {
-	continue_timer += 1/60;
+	continue_timer += 1/45;
 }
 
-if (key_act_r && continue_timer < 1)
+if (!key_act && continue_timer < 1)
 {
-	continue_timer = 0;
+	continue_timer = lerp(continue_timer, 0, 0.25);
 }
 
 if (continue_timer >= 1 && room_next(room) != -1 && alarm[0] == -1)
