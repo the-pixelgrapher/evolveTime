@@ -1,5 +1,5 @@
 // Menu origin
-y = 306;
+y = 300;
 
 // Current menu position
 select = 0;
