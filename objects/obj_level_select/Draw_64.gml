@@ -6,6 +6,9 @@ draw_set_color($52453D);
 var rs = floor(select/7),
 	xs = (select * 128) - (rs * 896) + x,
 	ys = rs * 128 + y;
+	
+xs_lerp = lerp(xs_lerp, xs, 0.25);
+ys_lerp = lerp(ys_lerp, ys, 0.25);
 
 
 // ---- DRAW LEVEL SELECTION GRID ----
@@ -23,3 +26,24 @@ for (var i = 0; i < 14; i++)
 	draw_sprite(spr_level_select_outline, 0, xs, ys);
 
 }
+
+
+if (rs < 1)
+{
+	draw_sprite_ext(spr_thumb_back, 0, xs_lerp, ys_lerp - 64, 1, 1, 0, c_white, 1);
+		
+	if (select < room_last - room - 2)
+	{
+		draw_sprite_ext(spr_level_thumb, select, xs_lerp, ys_lerp - 143, 1, 1, 0, c_white, 1);
+	}
+}
+else
+{
+	draw_sprite_ext(spr_thumb_back, 0, xs_lerp, ys_lerp + 64, 1, -1, 0, c_white, 1);
+		
+	if (select < room_last - room - 2)
+	{
+		draw_sprite_ext(spr_level_thumb, select, xs_lerp, ys_lerp + 143, 1, 1, 0, c_white, 1);
+	}
+}
+	
