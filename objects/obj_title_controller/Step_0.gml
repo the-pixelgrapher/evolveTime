@@ -11,7 +11,12 @@ if (key_act_p)
 {
 	if (select == 0)
 	{
-		room_goto(1);
+		room_goto(room + 2);
+	}
+	
+	if (select == 1)
+	{
+		room_goto(room + 1);
 	}
 	
 	if (select == 3)

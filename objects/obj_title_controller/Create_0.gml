@@ -1,5 +1,5 @@
 // Menu origin
-y = 330;
+y = 306;
 
 // Current menu position
 select = 0;
@@ -11,3 +11,7 @@ menu_sprite[2] = spr_turtle;
 menu_sprite[3] = spr_spider;
 
 image_speed = 1/6;
+
+
+global.level = 0;
+scr_load();
