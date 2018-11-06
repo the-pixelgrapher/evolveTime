@@ -119,5 +119,5 @@ image_xscale = 1 * sign(image_xscale);
 // Restart if character falls below map
 if (y > 1024)
 {
-	room_restart();
+	//room_restart();
 }

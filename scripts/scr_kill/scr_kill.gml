@@ -1,6 +1,6 @@
 // Kill animal
 
-if (collisons)
+if (collisons && !global.level_complete)
 {
 	scr_screen_shake(10,20)
 	collisons = false;
@@ -11,4 +11,7 @@ if (collisons)
 	{
 		hsp = 2 * sign(hsp);
 	}
+	
+	global.isDead = true;
+	obj_game_controller.time_steps = 0;
 }
