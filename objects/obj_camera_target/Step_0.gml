@@ -17,6 +17,24 @@ if (max(key_left_p, key_right_p, key_jump) && alarm[0] < 60)
 	lerp_speed = 0.2;
 }
 
+// Focus on goal
+if (object_follow != obj_goal)
+{
+	if ( keyboard_check_pressed(ord("E")) )
+	{
+		object_follow_before = object_follow;
+	}
+	if (keyboard_check(ord("E")))
+	{
+		object_follow = obj_goal;
+	}
+}
+if (keyboard_check_released(ord("E")))
+{
+	object_follow = object_follow_before;
+}
+
+
 // Screen shake
 x += random_range(-shake_remain,shake_remain);
 y += random_range(-shake_remain,shake_remain);

@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "4c43081d-b8cd-4b4a-a472-d4f4d79bcb5c",
+            "Value": {
+                "id": "3841e387-0703-4e07-a9c3-38fc3c7a3667",
+                "resourcePath": "sprites\\spr_turtle_idle\\spr_turtle_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4c8d73e3-5ca4-491b-80b7-7e51c2a0147e",
             "Value": {
                 "id": "807e1f84-da97-49f4-9cff-90d577f58116",

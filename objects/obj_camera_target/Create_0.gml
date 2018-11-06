@@ -1,6 +1,7 @@
 alarm[0] = 75;				// Steps before camera focuses on player
 
 object_follow = obj_goal;	// Current camera target object
+object_follow_before = obj_goal;
 
 follow_x = clamp(object_follow.x, 640, room_width-640);	
 x = follow_x;
@@ -8,6 +9,10 @@ y = 344;
 
 lerp_speed = 0.04;			// Speed of auto-focus on player
 is_player_focused = false;	// Whether the camera has focused onto player
+
+
+
+
 
 // Setup camera matrix
 camera = camera_create();

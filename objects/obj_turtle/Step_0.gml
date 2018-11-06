@@ -5,12 +5,22 @@ scr_swim();
 // Change sprite depending on player control
 if (controls_enabled)
 {
+	if (hsp == 0 || !grounded)
+	{
+		image_index = 0;
+	}
 	sprite_index = spr_player_turtle_blob;	
 }
 else
 {
-	sprite_index = spr_turtle;
+	sprite_index = spr_turtle_idle;
+	if(hsp > 0 || hsp < 0)
+		{
+			sprite_index = spr_turtle;
+		}
 }
+
+
 
 if(controls_enabled)
 {
