@@ -3,12 +3,19 @@ time_steps += 1;
 
 // Reset game
 
-if (keyboard_check(ord("R")) && !global.level_complete && reset_timer < 1 && time_steps > 60) 
+if (!global.level_complete && reset_timer < 1 && time_steps > 60) 
 {
-	reset_timer += 1/45;
+	if (global.is_dead)
+	{
+		reset_timer += 1/60;
+	}
+	else if (keyboard_check(ord("R")))
+	{
+		reset_timer += 1/45;
+	}
 }
 
-if (!keyboard_check(ord("R")) && reset_timer < 1)
+if (!max(keyboard_check(ord("R")), global.is_dead) && reset_timer < 1)
 {
 	reset_timer = lerp(reset_timer, 0, 0.25);
 }

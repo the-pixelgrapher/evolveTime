@@ -14,7 +14,7 @@ if (global.level_complete)
 		{
 			draw_set_color($05A1F0);
 		}
-		draw_rectangle(520, y + 465, (continue_timer * 240) + 520, y + 468, 0);
+		draw_rectangle(520, y + 465, floor(continue_timer * 240) + 520, y + 468, 0);
 	}
 }
 draw_set_halign(0);
