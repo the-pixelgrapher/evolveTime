@@ -33,7 +33,7 @@
             "id": "ff2f9468-2362-4134-a6de-327d52e5bc24",
             "modelName": "GMAutoTileSet",
             "mvc": "1.0",
-            "closed_edge": true,
+            "closed_edge": false,
             "name": "Background_tiles",
             "tiles": [
                 8,
