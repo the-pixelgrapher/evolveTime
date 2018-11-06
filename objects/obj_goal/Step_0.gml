@@ -1,6 +1,6 @@
 //global.level_complete = false;
 
-if (place_meeting(x, y, obj_animal) && !global.isDead)
+if (place_meeting(x, y, obj_animal) && !global.is_dead)
 {
 	global.level_complete = true;
 	image_speed = 1;

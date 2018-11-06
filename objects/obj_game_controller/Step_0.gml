@@ -5,7 +5,7 @@ time_steps += 1;
 
 if (!global.level_complete && reset_timer < 1 && time_steps > 60) 
 {
-	if (global.isDead)
+	if (global.is_dead)
 	{
 		reset_timer += 1/60;
 	}
@@ -15,7 +15,7 @@ if (!global.level_complete && reset_timer < 1 && time_steps > 60)
 	}
 }
 
-if (!max(keyboard_check(ord("R")), global.isDead) && reset_timer < 1)
+if (!max(keyboard_check(ord("R")), global.is_dead) && reset_timer < 1)
 {
 	reset_timer = lerp(reset_timer, 0, 0.25);
 }

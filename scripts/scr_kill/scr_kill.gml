@@ -12,6 +12,6 @@ if (collisons && !global.level_complete)
 		hsp = 2 * sign(hsp);
 	}
 	
-	global.isDead = true;
+	global.is_dead = true;
 	obj_game_controller.time_steps = 0;
 }
