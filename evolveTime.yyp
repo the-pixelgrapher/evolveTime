@@ -527,6 +527,14 @@
             }
         },
         {
+            "Key": "77c981df-df8c-40bc-9429-ec6d03d36e5a",
+            "Value": {
+                "id": "a92f80c0-9be1-4702-9b55-06a25c3befeb",
+                "resourcePath": "sprites\\spr_collision\\spr_collision.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "796f8842-0461-4fab-92ed-3c898c017ec5",
             "Value": {
                 "id": "0762ae31-141d-46a6-b63e-d5d814c366a6",

@@ -27,8 +27,8 @@ if(controls_enabled)
 		draw_yscale = 1.2;
 		draw_xscale = 0.83;
 	}
-	draw_xscale = lerp(draw_xscale, 1, .1);
-	draw_yscale = lerp(draw_yscale, 1, .1);
+	draw_xscale = lerp(draw_xscale, 1, .15);
+	draw_yscale = lerp(draw_yscale, 1, .15);
 
 
 	if (place_meeting(x,y+1,obj_solid) && !place_meeting(x,yprevious +1, obj_solid))
