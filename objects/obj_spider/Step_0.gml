@@ -32,7 +32,7 @@ if(controls_enabled)
 	{
 		projectile_dir = 270;
 	}
-	if (key_ctrl && can_shoot_web && grounded)
+	if (key_q && can_shoot_web && grounded)
 	{
 		can_shoot_web = false;
 		projectile = instance_create_layer(x,y-30,"ins_env_collision",obj_web);	

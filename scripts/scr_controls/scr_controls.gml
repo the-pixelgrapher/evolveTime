@@ -10,6 +10,7 @@ key_spacebar = keyboard_check(vk_space);
 key_act = max( keyboard_check(vk_enter), keyboard_check(vk_space) );
 key_s = max(keyboard_check(ord("S")),keyboard_check(vk_down));
 key_w = max(keyboard_check(ord("W")),keyboard_check(vk_up));
+key_q = keyboard_check(ord("Q"));
 
 key_up_p = max( keyboard_check_pressed(vk_up), keyboard_check_pressed(ord("W")) );
 key_down_p = max( keyboard_check_pressed(vk_down), keyboard_check_pressed(ord("S")) );
