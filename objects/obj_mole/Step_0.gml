@@ -16,7 +16,7 @@ if(controls_enabled)
 	{
 		Direction = Direction.down;	
 	}
-	if(key_ctrl)
+	if(key_q)
 	{
 		switch(Direction)
 		{

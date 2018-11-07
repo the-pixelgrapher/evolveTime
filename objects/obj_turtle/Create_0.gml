@@ -21,6 +21,7 @@ can_climb = false;
 controls_enabled = false; // Whether or not the this object is being controlled
 do_walk = true; // Whether this character walks whilst not being controlled
 
+sink_effect = 0;
 sink				= true;	
 sink_delay			= 0;
 is_touching_water	= false;

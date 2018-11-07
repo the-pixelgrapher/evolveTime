@@ -3,7 +3,7 @@ scr_move(hsp);
 
 if(object_climb != noone && can_climb && controls_enabled)
 {
-if(key_w || (key_s && !grounded))
+if(key_up || (key_down && !grounded))
 	{
 	// Collision check
 	if(place_meeting(x, y, object_climb) &&                

@@ -2,7 +2,7 @@ if (is_touching_water && can_swim)
 {
 	if (!controls_enabled)
 	{
-		vsp = clamp(vsp, 0.30, -0.30);
+		//
 	}
 	else
 	{

@@ -1,6 +1,6 @@
 //Climb State
 
-// If not touching a ladder or controls not enabled, resume normal state
+// If not touching a web or controls not enabled, resume normal state
 if(!place_meeting(x, y, object_climb) || !controls_enabled)        
 {                                                                  
     state = PLAYER_STATE.normal;
@@ -11,13 +11,8 @@ if(!place_meeting(x, y, object_climb) || !controls_enabled)
 hsp = 0;                                                         
 vsp = 0;                                                         
 
-// Collision to stop the player from going over the top of the web
-
-//if(key_up && collision_line(bbox_left, bbox_top - 1,              
-//    bbox_right, bbox_top -1, object_climb, false, true) != noone) 
-
 // ~~ Press ctrl to drop off the web ~~
-if(key_spacebar)
+if(key_ctrl)
 {
 	state = PLAYER_STATE.normal;
 	exit;
@@ -25,7 +20,9 @@ if(key_spacebar)
 
 // ~~ Web Movement ~~ 
 if(controls_enabled && place_meeting(x,y, object_climb))                                                  
-{              
+{
+	// get the nearest web
+	var web = instance_nearest(x,y,obj_web)
 	// ~~ LEFT ~~
     if(key_left)
     {
@@ -45,6 +42,11 @@ if(controls_enabled && place_meeting(x,y, object_climb))
 	if(key_s)
 	{
 		vsp += climb_speed;
+	}
+	// delete web 
+	if(key_q)
+	{
+		instance_destroy(web);
 	}
 }
 

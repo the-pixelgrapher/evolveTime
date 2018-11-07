@@ -3,4 +3,4 @@
 
 speed = 0;
 direction = 0;
-image_index = [2]
+sprite_index = spr_webProjectile

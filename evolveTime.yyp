@@ -1119,6 +1119,14 @@
             }
         },
         {
+            "Key": "d905d154-2bd4-4176-b2c5-17595bd77181",
+            "Value": {
+                "id": "013094dd-d73b-4102-b7b1-44418428c1ae",
+                "resourcePath": "sprites\\spr_webProjectile\\spr_webProjectile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dbfa1318-a2b1-4ac5-a1fb-5e3fc4838b00",
             "Value": {
                 "id": "f9d9e9ad-e6af-4496-8a94-9695e768bede",
