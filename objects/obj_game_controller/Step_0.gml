@@ -11,7 +11,7 @@ if (!global.level_complete && reset_timer < 1 && time_steps > 60)
 	}
 	else if (keyboard_check(ord("R")))
 	{
-		reset_timer += 1/45;
+		reset_timer += 1/global.reset_timer_length;
 	}
 }
 
