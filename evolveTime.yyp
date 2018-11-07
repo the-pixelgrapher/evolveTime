@@ -282,7 +282,7 @@
             "Key": "2e6cbf3e-0c3a-4e8d-897f-e8850df17381",
             "Value": {
                 "id": "f3876eae-fa93-4ab1-9956-5f195f813b9d",
-                "resourcePath": "rooms\\rm_mole_test\\rm_mole_test.yy",
+                "resourcePath": "rooms\\rm_level_13_T_Sa_M\\rm_level_13_T_Sa_M.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -690,7 +690,7 @@
             "Key": "86a39291-6663-4506-8350-729a8a406235",
             "Value": {
                 "id": "63109bab-654e-4369-bfb2-2a7110fbcc6c",
-                "resourcePath": "rooms\\rm_level_13b_no_mole\\rm_level_13b_no_mole.yy",
+                "resourcePath": "rooms\\rm_level_15_B_Sa_M\\rm_level_15_B_Sa_M.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1146,7 +1146,7 @@
             "Key": "de90a421-d045-4437-b06a-4b1b7c4798d5",
             "Value": {
                 "id": "1b4a2a24-cbae-425a-aebe-9d8b0ccf976c",
-                "resourcePath": "rooms\\rm_level_14_B_T_Sa_Sp_M\\rm_level_14_B_T_Sa_Sp_M.yy",
+                "resourcePath": "rooms\\rm_level_16_B_T_Sa_Sp_M\\rm_level_16_B_T_Sa_Sp_M.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1306,7 +1306,7 @@
             "Key": "f4c9c061-0656-4621-b279-3d4f9abf9e53",
             "Value": {
                 "id": "d7cf19a4-0cad-42b6-8aae-b332ae6dfa53",
-                "resourcePath": "rooms\\rm_level_14b_no_mole\\rm_level_14b_no_mole.yy",
+                "resourcePath": "rooms\\rm_level_14_B_Sp_M\\rm_level_14_B_Sp_M.yy",
                 "resourceType": "GMRoom"
             }
         },
