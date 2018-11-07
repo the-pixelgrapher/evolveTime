@@ -1,5 +1,6 @@
  // Control Hint Logic
-
+if (instance_exists(obj_slimeyboi))
+{
 
 	draw_set_alpha(draw_alpha);
 	
@@ -14,4 +15,6 @@
 	draw_text(obj_slimeyboi.x, obj_slimeyboi.y - 125, "movement");
 	
 	draw_set_alpha(1);
+	
+}	
 
