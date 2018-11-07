@@ -20,7 +20,9 @@ if(key_ctrl)
 
 // ~~ Web Movement ~~ 
 if(controls_enabled && place_meeting(x,y, object_climb))                                                  
-{              
+{
+	// get the nearest web
+	var web = instance_nearest(x,y,obj_web)
 	// ~~ LEFT ~~
     if(key_left)
     {
@@ -40,6 +42,11 @@ if(controls_enabled && place_meeting(x,y, object_climb))
 	if(key_s)
 	{
 		vsp += climb_speed;
+	}
+	// delete web 
+	if(key_q)
+	{
+		instance_destroy(web);
 	}
 }
 
