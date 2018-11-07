@@ -13,3 +13,5 @@ reset_timer = 0;
 
 continue_active = 0;
 continue_timer = 0;
+
+instance_create_layer(0, 0, "game", obj_control_hints);
