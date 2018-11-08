@@ -39,7 +39,8 @@ if (reset_timer > 0)
 		draw_rectangle(544, 636, floor(reset_timer * 192) + 544, 639, 0);
 	}
 }
-else if (!global.level_complete && time_steps < 60 * 20)
+else if (!global.level_complete && time_steps < 60*20 && 
+(obj_camera_target.object_follow.x < (room_width - 140) || obj_camera_target.object_follow.y < (720 - 64)))
 {
 	draw_sprite(spr_reset_hint, 0, 1144, 640);
 }
