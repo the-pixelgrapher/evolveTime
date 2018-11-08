@@ -21,7 +21,14 @@ if (global.is_paused)
 	
 		if (select == 0)
 		{
-			global.is_paused = false;
+			if (global.level_complete = true)
+			{
+				room_goto_next();
+			}
+			else
+			{
+				global.is_paused = false;
+			}
 		}
 	
 		if (select == 1)

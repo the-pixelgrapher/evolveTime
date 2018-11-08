@@ -42,6 +42,7 @@ if(controls_enabled)
 			var block = instance_place(x+5,y-30,obj_dirt_block)
 			if place_meeting(x+5,y-30,block)
 			{
+				scr_audio("dig");
 				sprite_index = spr_player_mole_digging;
 				can_dig = false;
 				alarm[0] = 30;
@@ -52,6 +53,7 @@ if(controls_enabled)
 			var block = instance_place(x-5,y-30,obj_dirt_block)
 			if place_meeting(x-5,y-30,block)
 			{
+				scr_audio("dig");
 				sprite_index = spr_player_mole_digging;
 				can_dig = false;
 				alarm[0] = 30;
@@ -62,6 +64,7 @@ if(controls_enabled)
 			var block = instance_place(x,y+5,obj_dirt_block)
 			if place_meeting(x,y+5,block)
 			{
+				scr_audio("dig");
 				sprite_index = spr_player_mole_digging;
 				can_dig = false;
 				alarm[0] = 30;
@@ -72,6 +75,7 @@ if(controls_enabled)
 			var block = instance_place(x,y-40,obj_dirt_block)
 			if place_meeting(x,y-40,block)
 			{
+				scr_audio("dig");
 				sprite_index = spr_player_mole_digging;
 				can_dig = false;
 				alarm[0] = 30;
