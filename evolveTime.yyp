@@ -1087,6 +1087,14 @@
             }
         },
         {
+            "Key": "bdd85ae2-4a1e-4433-b9f8-f2a41d51934e",
+            "Value": {
+                "id": "2be23940-c624-4997-b984-2bd09cf2d811",
+                "resourcePath": "sprites\\spr_player_salamander_blob_fire_idle\\spr_player_salamander_blob_fire_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bdf0bade-8ec1-4661-8716-4a03a6c93ffc",
             "Value": {
                 "id": "1b5b02e0-ddb4-46cd-a534-dc412b9bd869",

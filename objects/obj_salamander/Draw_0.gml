@@ -15,12 +15,15 @@ else if (hsp < 0)
 // Draw arrow above controlled character
 if (controls_enabled)
 {
-	
 	draw_sprite(spr_indicator, 0, x, y - 46);
 	image_speed = 1;
 	sprite_index = spr_player_salamander_blob_fire;
-	if (hsp == 0 || !grounded)
+	if (hsp == 0 && can_shoot_flame)
 	{
-		image_index = 0;
+	sprite_index = spr_player_salamander_blob_fire_idle;	
+	}
+	if (hsp == 0 && !can_shoot_flame || !grounded && !can_shoot_flame)
+	{
+	image_index = 0;
 	}
 }
