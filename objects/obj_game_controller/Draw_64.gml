@@ -33,10 +33,3 @@ if (reset_timer > 0)
 		draw_rectangle(544, 636, floor(reset_timer * 192) + 544, 639, 0);
 	}
 }
-
-#region // Control Hint Logic
-
-
-
-
-#endregion

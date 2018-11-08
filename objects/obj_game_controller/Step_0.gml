@@ -45,7 +45,7 @@ if (global.level_complete)
 
 if (continue_active && continue_timer < 1 && key_act && global.level_complete)
 {
-	continue_timer += 1/45;
+	continue_timer += 1/40;
 }
 
 if (!key_act && continue_timer < 1)

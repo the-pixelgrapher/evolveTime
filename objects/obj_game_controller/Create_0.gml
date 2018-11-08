@@ -1,7 +1,7 @@
 global.show_debug = false;
 global.level_complete = false;
 global.grv = 0.3; // Gravity
-global.level = room - 1;
+global.level = room - 2;
 global.is_dead = false;
 
 x = 0;
