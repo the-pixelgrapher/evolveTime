@@ -46,7 +46,7 @@ else
 	if(place_meeting(x,y,obj_fluid))
 	{
 		vsp = clamp(vsp, 0.30, -0.30);
-		if(sink_effect != 30)
+		if(sink_effect != 20)
 		{
 			sink_effect += 1;	
 			vsp = clamp(vsp, 0.50, 1);

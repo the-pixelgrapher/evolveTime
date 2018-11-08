@@ -1,3 +1,5 @@
+//draw_text(64,64, global.level);
+
 if (global.level_complete)
 {
 	draw_set_halign(1);
