@@ -3,6 +3,7 @@ global.level_complete = false;
 global.grv = 0.3; // Gravity
 global.level = room - 2;
 global.is_dead = false;
+global.is_paused = false;
 
 x = 0;
 y = -128;

@@ -125,14 +125,14 @@ switch (room)
 		{
 			draw_set_alpha(draw_alpha[6]);
 	
-			draw_sprite(spr_control_back, 0, obj_mole.x, obj_mole.y - 42);
-			draw_sprite(spr_key_ability, image_index, obj_mole.x, obj_mole.y - 78);
+			draw_sprite(spr_control_back, 0, obj_mole.x, obj_mole.y - 52);
+			draw_sprite(spr_key_ability, image_index, obj_mole.x, obj_mole.y - 88);
 	
 			draw_set_font(fnt_hints);
 			draw_set_halign(1);
 			draw_set_valign(0);
 			draw_set_color($52453D);
-			draw_text(obj_mole.x, obj_mole.y - 125, "dig dig dig");
+			draw_text(obj_mole.x, obj_mole.y - 135, "dig dig dig");
 	
 			draw_set_alpha(1);
 		}

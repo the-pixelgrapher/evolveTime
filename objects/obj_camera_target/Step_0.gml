@@ -14,7 +14,7 @@ if (max(key_left_p, key_right_p, key_jump) && alarm[0] < 60)
 		object_follow = obj_slimeyboi;
 		is_player_focused = true;
 	}
-	lerp_speed = 0.2;
+	lerp_speed = 0.15;
 }
 
 // Focus on goal

@@ -68,7 +68,7 @@ if global.sound == 1 {
 		break;
 		
 		case "complete": // level complete
-		audio_sound_gain(sfx_level_mus0, 0, 120);
+		//audio_sound_pitch(sfx_complete, 0.875);
 		audio_play_sound(sfx_complete,64,0);
 		break;
 		
