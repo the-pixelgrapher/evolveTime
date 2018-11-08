@@ -25,3 +25,9 @@ for (var i = 0; i < 4; i++)
 		draw_text(room_width/2, y + 15 + yy, item);
 	}
 }
+
+if (controls_screen)
+{
+	draw_sprite(spr_controls_back, 0, 400, 120);
+	
+}

@@ -21,13 +21,11 @@ for (var i = 0; i < 16; i++)
 		xo = (i * 128) - (rn * rl * 128) + x,	//x origin pint
 		yo = rn * 128 + y;						//y origin point
 	
-	draw_sprite_ext(spr_level_back,0,xo,yo,1,1,0, c_white, 1);
-	//draw_sprite_ext(spr_level_back,0,xo,yo,1,1,0, $52453D, 1);
-	
-	draw_text(xo, yo + 1, i + 1);
-	
-	draw_sprite(spr_level_select_outline, 0, xs, ys);
 
+	draw_sprite(spr_level_back,0,xo,yo);
+	draw_sprite(spr_level_select_outline, 0, xs, ys);
+	draw_text(xo, yo + 1, i + 1);
+		
 }
 
 
