@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "1fec9cb4-5438-4f55-a277-65fe37143032",
+            "Value": {
+                "id": "0b001600-cfd3-4428-a2f2-81ac08d06d32",
+                "resourcePath": "sprites\\spr_mole_digging\\spr_mole_digging.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "21f5d0f5-8fa1-4581-b18e-cac7e7c7981b",
             "Value": {
                 "id": "981b1e27-8b1d-4652-80f8-e23e94e0e0a5",

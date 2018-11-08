@@ -10,9 +10,9 @@ if (controls_enabled)
 // Amimation
 image_speed = 1;
 
-if (hsp == 0 || !grounded)
+if (hsp == 0 && sprite_index = spr_mole)
 {
-	image_index = 0;
+	image_index = 3;
 }
 
 if (hsp > 0)
