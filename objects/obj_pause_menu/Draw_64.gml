@@ -22,7 +22,17 @@ if (draw_alpha > 0)
 	{
 		var yy = i * 60;
 	
-		if (i = 0) {var item = "continue";}
+		if (i = 0)
+		{
+			if (global.level_complete = true)
+			{
+				var item = "next level";
+			}
+			else
+			{
+				var item = "continue";
+			}
+		}
 		if (i = 1) {var item = "level selection"}
 		if (i = 2) {var item = "controls"}
 		if (i = 3) {var item = "main menu"}
@@ -31,12 +41,12 @@ if (draw_alpha > 0)
 		{
 			draw_sprite(spr_menu_select, 0, 460, y + yy + 296);
 			draw_set_color(c_white);
-			draw_text(1280/2, y + 16 + yy + 296, item);
+			draw_text(1280/2, y + 16 + yy + 295, item);
 		}
 		else 
 		{
 			draw_set_color($52453D);
-			draw_text(1280/2, y + 16 + yy + 296, item);
+			draw_text(1280/2, y + 16 + yy + 295, item);
 		}
 	}
 	
