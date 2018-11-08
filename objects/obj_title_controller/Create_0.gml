@@ -13,6 +13,7 @@ menu_sprite[2] = spr_turtle;
 menu_sprite[3] = spr_spider;
 
 image_speed = 1/6;
+index_key = 0;
 
 scr_load();
 

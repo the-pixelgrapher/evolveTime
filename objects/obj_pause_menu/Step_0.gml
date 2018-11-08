@@ -5,7 +5,11 @@ if (global.is_paused)
 	
 	scr_controls();
 
-	if (!controls_screen)
+	if (controls_screen)
+	{
+		index_key += 1/60;
+	}
+	else
 	{
 		select -= key_up_p;
 		select += key_down_p;

@@ -30,4 +30,17 @@ if (controls_screen)
 {
 	draw_sprite(spr_controls_back, 0, 400, 120);
 	
+	draw_sprite(spr_key_left, index_key, 489, 284);
+	draw_sprite(spr_key_right, index_key, 538, 284);
+	draw_sprite(spr_key_space, index_key, 640, 284);
+	draw_sprite(spr_key_shift, index_key, 764, 284);
+	
+	draw_sprite(spr_key_left, index_key, 489, 432);
+	draw_sprite(spr_key_ability, index_key, 545, 432);
+	draw_sprite(spr_key_right, index_key, 601, 432);
+	
+	draw_sprite(spr_key_up, index_key, 735, 408);
+	draw_sprite(spr_key_left, index_key, 679, 448);
+	draw_sprite(spr_key_ability, index_key, 735, 448);
+	draw_sprite(spr_key_right, index_key, 791, 448);
 }
