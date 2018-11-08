@@ -38,7 +38,6 @@ if (collisons && obj_camera_target.alarm[0] == -1 && obj_camera_target.object_fo
 		if (key_shift)
 		{
 			scr_audio("release");
-			scr_effect_create( 0, x, y, choose(0,90,180,270));
 			scr_screen_shake(1.5,8);
 			
 			var xs = image_xscale;
