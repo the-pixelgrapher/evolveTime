@@ -67,6 +67,16 @@ if global.sound == 1 {
 		audio_sound_pitch(sfx_explosion, 1.17 - random(0.33));
 		break;
 		
+		case "shoot": // shoot web
+		audio_play_sound(sfx_shoot, 64, 0);
+		audio_sound_pitch(sfx_shoot, 1.1 - random(0.2));
+		break;
+		
+		case "dig": // dig dirt
+		audio_play_sound(sfx_dig, 64, 0);
+		audio_sound_pitch(sfx_dig, 1.1 - random(0.2));
+		break;
+		
 		case "complete": // level complete
 		//audio_sound_pitch(sfx_complete, 0.875);
 		audio_play_sound(sfx_complete,64,0);

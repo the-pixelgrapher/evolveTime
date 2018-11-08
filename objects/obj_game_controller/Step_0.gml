@@ -49,7 +49,7 @@ if (global.level_complete)
 
 // Continue to next level
 
-if (continue_active && continue_timer < 1 && key_act && global.level_complete)
+if (continue_active && continue_timer < 1 && key_act && global.level_complete && !global.is_paused)
 {
 	continue_timer += 1/40;
 }

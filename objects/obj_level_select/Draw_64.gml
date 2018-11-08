@@ -1,3 +1,5 @@
+draw_set_alpha(1);
+
 draw_set_font(fnt_level_num);
 draw_set_valign(1);
 draw_set_halign(1);

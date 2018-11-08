@@ -1,4 +1,4 @@
-draw_self();
+draw_sprite_ext(sprite_index, image_index, x , y, draw_xscale*image_xscale, draw_yscale, image_angle, image_blend, image_alpha);
 
 // Flip sprite based on walk direction
 if (hsp > 0)

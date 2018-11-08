@@ -49,7 +49,7 @@ else
 #endregion
 
 #region // Control
-if (controls_enabled && !global.level_complete)
+if (controls_enabled && !global.level_complete && !global.is_paused)
 {
 	// Ensure walksp is always positive
 	walksp *= sign(walksp);
