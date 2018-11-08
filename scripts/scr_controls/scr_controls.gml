@@ -5,9 +5,9 @@ key_right = max( keyboard_check(vk_right), keyboard_check(ord("D")) );
 key_up = max( keyboard_check(vk_space),keyboard_check(vk_up), keyboard_check(ord("W")) );
 key_shift = keyboard_check(vk_shift);
 key_down = max( keyboard_check(vk_down), keyboard_check(ord("S")) );
-key_ctrl = max (keyboard_check(vk_control), keyboard_check(vk_alt) );
+key_ctrl = max (keyboard_check(vk_control));
 key_act = max( keyboard_check(vk_enter), keyboard_check(vk_space) );
-key_ability = keyboard_check(vk_alt);
+key_ability = max(keyboard_check(vk_control), keyboard_check(vk_alt) );
 
 key_up_p = max( keyboard_check_pressed(vk_up), keyboard_check_pressed(ord("W")) );
 key_down_p = max( keyboard_check_pressed(vk_down), keyboard_check_pressed(ord("S")) );

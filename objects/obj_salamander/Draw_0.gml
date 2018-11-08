@@ -16,15 +16,11 @@ else if (hsp < 0)
 if (controls_enabled)
 {
 	
-	draw_sprite(spr_indicator, 0, x, y - 42);
+	draw_sprite(spr_indicator, 0, x, y - 46);
 	image_speed = 1;
 	sprite_index = spr_player_salamander_blob_fire;
 	if (hsp == 0 || !grounded)
 	{
 		image_index = 0;
 	}
-	/*if (on_fire)
-	{
-		draw_sprite_ext(spr_fire, index, x - 16, y - 31, 0.5, 0.5, 0, c_white, 1);
-	}*/
 }

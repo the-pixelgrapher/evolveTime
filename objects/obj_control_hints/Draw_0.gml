@@ -45,14 +45,14 @@ switch (room)
 		{
 			draw_set_alpha(draw_alpha[2]);
 	
-			draw_sprite(spr_control_back, 0, obj_salamander.x, obj_salamander.y - 42);
-			draw_sprite(spr_key_ability, image_index, obj_salamander.x, obj_salamander.y - 78);
+			draw_sprite(spr_control_back, 0, obj_salamander.x, obj_salamander.y - 46);
+			draw_sprite(spr_key_ability, image_index, obj_salamander.x, obj_salamander.y - 82);
 	
 			draw_set_font(fnt_hints);
 			draw_set_halign(1);
 			draw_set_valign(0);
 			draw_set_color($52453D);
-			draw_text(obj_salamander.x, obj_salamander.y - 125, "shoot fire");
+			draw_text(obj_salamander.x, obj_salamander.y - 129, "shoot fire");
 	
 			draw_set_alpha(1);
 		}
@@ -105,14 +105,14 @@ switch (room)
 		{
 			draw_set_alpha(draw_alpha[5]);
 	
-			draw_sprite(spr_control_back, 0, obj_spider.x, obj_spider.y - 42);
-			draw_sprite(spr_key_ability, image_index, obj_spider.x, obj_spider.y - 78);
+			draw_sprite(spr_control_back, 0, obj_spider.x, obj_spider.y - 53);
+			draw_sprite(spr_key_ability, image_index, obj_spider.x, obj_spider.y - 89);
 	
 			draw_set_font(fnt_hints);
 			draw_set_halign(1);
 			draw_set_valign(0);
 			draw_set_color($52453D);
-			draw_text(obj_spider.x, obj_spider.y - 125, "shoot web");
+			draw_text(obj_spider.x, obj_spider.y - 136, "shoot web");
 	
 			draw_set_alpha(1);
 		}
