@@ -12,6 +12,20 @@ if (controls_enabled)
 		image_index = 0;
 	}
 	sprite_index = spr_player_spider_blob;	
+	if (key_up && !grounded)
+	{
+		draw_yscale = 1.05;
+		draw_xscale = 0.95;
+	}
+	draw_xscale = lerp(draw_xscale, 1, .15);
+	draw_yscale = lerp(draw_yscale, 1, .15);
+
+
+	if (place_meeting(x,y+1,obj_solid) && !place_meeting(x,yprevious +1, obj_solid))
+	{
+		draw_yscale = .75;
+		draw_xscale = 1.15;
+	}
 }
 else
 {
@@ -20,6 +34,8 @@ else
 		{
 			sprite_index = spr_spider;
 		}
+	draw_yscale = 1;
+	draw_xscale = 1;
 }
 
 if(controls_enabled)

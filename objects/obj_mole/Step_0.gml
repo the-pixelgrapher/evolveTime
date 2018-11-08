@@ -4,6 +4,20 @@ scr_move(hsp); // General physics script
 var block;
 if(controls_enabled)
 {
+	if (key_up && !grounded)
+	{
+		draw_yscale = 1.15;
+		draw_xscale = 0.85;
+	}
+	draw_xscale = lerp(draw_xscale, 1, .15);
+	draw_yscale = lerp(draw_yscale, 1, .15);
+
+
+	if (place_meeting(x,y+1,obj_solid) && !place_meeting(x,yprevious +1, obj_solid))
+	{
+		draw_yscale = .75;
+		draw_xscale = 1.15;
+	}
 	if(key_left)
 	{
 		Direction = Direction.left;
@@ -66,4 +80,9 @@ if(controls_enabled)
 			}
 		}
 	}
+}
+else
+{
+	draw_yscale = 1;
+	draw_xscale = 1;	
 }
