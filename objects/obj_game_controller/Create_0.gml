@@ -16,5 +16,6 @@ complete_sound_played = false;
 continue_active = 0;
 continue_timer = 0;
 
+instance_create_layer(0, 0, "game", obj_pause_menu);
 instance_create_layer(0, 0, "game", obj_control_hints);
 scr_audio("music_level");

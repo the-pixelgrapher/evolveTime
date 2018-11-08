@@ -14,5 +14,4 @@ image_speed = 1/6;
 
 scr_load();
 
-audio_stop_all();
 scr_audio("music_menu");

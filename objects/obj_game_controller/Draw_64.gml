@@ -35,3 +35,7 @@ if (reset_timer > 0)
 		draw_rectangle(544, 636, floor(reset_timer * 192) + 544, 639, 0);
 	}
 }
+else if (!global.level_complete)
+{
+	draw_sprite(spr_reset_hint, 0, 1144, 640);
+}
