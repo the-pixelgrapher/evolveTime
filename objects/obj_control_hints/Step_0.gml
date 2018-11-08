@@ -63,11 +63,11 @@ if (obj_game_controller.time_steps > 120)
 		
 		#region //level 5: focus
 		case rm_level_05_T_Sa:
-			if (global.controls_shown[4] == false)
+			if (global.controls_shown[4] == false && obj_game_controller.time_steps > 60 * 5)
 			{
 				show_controls[4] = true;
 			}
-			if (keyboard_check_pressed(ord("E")) || obj_game_controller.time_steps > 60 * 6)
+			if (keyboard_check_pressed(ord("E")) || obj_game_controller.time_steps > 60 * 8)
 			{
 				global.controls_shown[4] = true;
 				show_controls[4] = false;
