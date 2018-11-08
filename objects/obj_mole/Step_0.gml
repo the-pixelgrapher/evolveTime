@@ -43,7 +43,7 @@ if(controls_enabled)
 			if place_meeting(x,y+5,block)
 			{
 				can_dig = false;
-				alarm[0] = 60;
+				alarm[0] = 30;
 				block.hp -=1;
 				break;
 			}
