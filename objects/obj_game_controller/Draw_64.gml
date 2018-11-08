@@ -2,6 +2,8 @@
 
 if (global.level_complete)
 {
+	draw_set_alpha(1-obj_pause_menu.draw_alpha);
+	
 	draw_set_halign(1);
 	draw_set_valign(0);
 	draw_sprite(spr_complete_back, 0, 384, y + 190);
@@ -18,6 +20,8 @@ if (global.level_complete)
 		}
 		draw_rectangle(520, y + 465, floor(continue_timer * 240) + 520, y + 468, 0);
 	}
+	
+	draw_set_alpha(1-obj_pause_menu.draw_alpha);
 }
 draw_set_halign(0);
 

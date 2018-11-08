@@ -31,12 +31,12 @@ if (draw_alpha > 0)
 		{
 			draw_sprite(spr_menu_select, 0, 460, y + yy + 296);
 			draw_set_color(c_white);
-			draw_text(room_width/2, y + 16 + yy + 296, item);
+			draw_text(1280/2, y + 16 + yy + 296, item);
 		}
 		else 
 		{
 			draw_set_color($52453D);
-			draw_text(room_width/2, y + 16 + yy + 296, item);
+			draw_text(1280/2, y + 16 + yy + 296, item);
 		}
 	}
 	
