@@ -12,6 +12,8 @@ menu_sprite[3] = spr_spider;
 
 image_speed = 1/6;
 
-
 global.level = 0;
 scr_load();
+
+audio_stop_all();
+scr_audio("music_menu");

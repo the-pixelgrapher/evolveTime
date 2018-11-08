@@ -38,6 +38,12 @@ if (global.level_complete)
 	{
 		continue_active = 1;	
 	}
+	
+	if (!complete_sound_played)
+	{
+		scr_audio("complete");
+		complete_sound_played = true;
+	}
 }
 
 

@@ -85,6 +85,8 @@ if (controls_enabled && !global.level_complete)
 	// Jumping
 	if (key_jump && jump_armed && can_jump && controls_enabled)
 	{
+		scr_audio("jump");
+		
 		vsp = jump_height * -1 * sign(global.grv);
 		jump_armed = false;
 	}

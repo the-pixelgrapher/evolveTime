@@ -39,6 +39,7 @@ if(controls_enabled)
 	
 	if (key_ability && can_shoot_flame)
 	{
+		scr_audio("ignite");
 		can_shoot_flame = false;
 		alarm[0] = 30;
 		if(facing_right)

@@ -14,7 +14,9 @@ if (collisons && obj_camera_target.alarm[0] == -1 && obj_camera_target.object_fo
 			// Capture animal if cooldown has expired
 			if (capture_cooldown <= 0)
 			{
+				scr_audio("capture");
 				scr_screen_shake(2, 5);
+				
 				controls_enabled = true;
 				layer = layer_get_id("player"); // Move to front layer
 				obj_camera_target.object_follow = id;
@@ -35,8 +37,10 @@ if (collisons && obj_camera_target.alarm[0] == -1 && obj_camera_target.object_fo
 	{
 		if (key_shift)
 		{
+			scr_audio("release");
 			scr_effect_create( 0, x, y, choose(0,90,180,270));
 			scr_screen_shake(1.5,8);
+			
 			var xs = image_xscale;
 		
 			with (instance_create_layer(x, y, "player", obj_slimeyboi))

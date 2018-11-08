@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "0de736a3-8b3b-41a2-8980-bacdf1899580",
+            "Value": {
+                "id": "c15e8bfa-8490-44be-a028-0df68f903bac",
+                "resourcePath": "sounds\\sfx_level_mus0\\sfx_level_mus0.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0e0a2618-7e04-4164-9fa8-08ba0cedaf6b",
             "Value": {
                 "id": "128a4897-e6da-46e1-86ad-ce1ee38a3ca8",
@@ -207,6 +215,14 @@
             }
         },
         {
+            "Key": "19d0b032-1e82-4cb6-869f-9cc26d50e52e",
+            "Value": {
+                "id": "55a6cfe6-501a-47f3-a066-eabe1274f0f3",
+                "resourcePath": "sounds\\sfx_select\\sfx_select.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1b098874-79e9-4770-b96f-ced3b19356c5",
             "Value": {
                 "id": "a450833b-1dad-47e6-ae1f-4d43aa99cde2",
@@ -263,6 +279,14 @@
             }
         },
         {
+            "Key": "284f7301-f6a7-484a-8b8c-82939051c73b",
+            "Value": {
+                "id": "bbc056da-3db7-4dd6-9e8c-2e798425bc8c",
+                "resourcePath": "sounds\\sfx_fire\\sfx_fire.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2c3e2918-056d-447f-a44e-d86e15e8a81e",
             "Value": {
                 "id": "adadbf02-42e3-4c20-9b45-ab6f01b6c69e",
@@ -308,6 +332,14 @@
                 "id": "a39153b8-4d7f-4cfc-a53a-8daf360aa358",
                 "resourcePath": "sprites\\spr_title\\spr_title.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "35fef262-452d-4bbb-bfab-c801cbf854e8",
+            "Value": {
+                "id": "d909646d-a5e0-4389-abee-51538cd59631",
+                "resourcePath": "sounds\\sfx_jump_bunny\\sfx_jump_bunny.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -367,11 +399,27 @@
             }
         },
         {
+            "Key": "461c2b9d-e9f3-4272-afce-0806cbec3e30",
+            "Value": {
+                "id": "9398ad55-c47c-49f9-84a0-504fc1133ace",
+                "resourcePath": "sounds\\sfx_jump\\sfx_jump.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4668d3c0-773f-4231-9a61-beddf77eac63",
             "Value": {
                 "id": "a9c97474-db28-4353-be5a-4571ac5d5fc2",
                 "resourcePath": "objects\\obj_slime_block\\obj_slime_block.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "46eca89c-827a-44c0-8197-8f58c1be66f3",
+            "Value": {
+                "id": "370b36c7-9b22-4d42-9236-75c0c2dd884d",
+                "resourcePath": "sounds\\sfx_death\\sfx_death.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -535,6 +583,14 @@
             }
         },
         {
+            "Key": "6417c256-330a-4935-8b30-0b1867f6418e",
+            "Value": {
+                "id": "3544eee3-6ff9-4319-b99e-6d8f7bf361fb",
+                "resourcePath": "sounds\\sfx_release\\sfx_release.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "64841208-f1c8-444d-93a5-4f6312aafeb7",
             "Value": {
                 "id": "a34326ac-09ea-48eb-b1ad-edcbe243fb65",
@@ -620,6 +676,14 @@
                 "id": "9864cb08-cc8f-47b0-b4e4-ef4697957e7d",
                 "resourcePath": "sprites\\spr_grass_dirt_v3\\spr_grass_dirt_v3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7cedad6a-b952-4688-8065-ac21f530ee81",
+            "Value": {
+                "id": "75c02a71-831e-4a7c-af8a-de08262053cf",
+                "resourcePath": "sounds\\sfx_explosion\\sfx_explosion.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -844,6 +908,14 @@
                 "id": "b29555bb-a65b-43ac-9b3e-8b4a0531eb8c",
                 "resourcePath": "fonts\\fnt_hints\\fnt_hints.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "a4ca8bf3-52c2-42b5-9df6-0e56a964772e",
+            "Value": {
+                "id": "ac1105e5-4509-4315-be96-a3b7bed662a8",
+                "resourcePath": "sounds\\sfx_menu_mus0\\sfx_menu_mus0.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1119,11 +1191,27 @@
             }
         },
         {
+            "Key": "d2deed58-aff3-4dc7-b02d-59631627fe3e",
+            "Value": {
+                "id": "9e07701e-6dd1-4c29-8fad-21918b564322",
+                "resourcePath": "sounds\\sfx_ignite\\sfx_ignite.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d5fe8fea-0ed6-45d0-b877-fcd4448707ae",
             "Value": {
                 "id": "46661be8-3ee6-47fb-b66f-69a5e93f55ea",
                 "resourcePath": "sprites\\spr_breakable_block\\spr_breakable_block.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d6c085a0-5eb1-415f-b693-29fa4d0a90e3",
+            "Value": {
+                "id": "8d637b4b-45ab-40ff-b512-0fb866067821",
+                "resourcePath": "sounds\\sfx_tap\\sfx_tap.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1156,6 +1244,14 @@
                 "id": "f9d9e9ad-e6af-4496-8a94-9695e768bede",
                 "resourcePath": "sprites\\spr_player_salamander_blob_fire\\spr_player_salamander_blob_fire.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dd63e40d-7758-4370-9d22-b108ddd2c767",
+            "Value": {
+                "id": "afad1688-45f5-48cc-8237-f7e2b8768cb4",
+                "resourcePath": "scripts\\scr_audio\\scr_audio.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1247,6 +1343,14 @@
             }
         },
         {
+            "Key": "ecd2ff75-c440-4ae8-9821-b10afc2f14db",
+            "Value": {
+                "id": "94b55e38-e07c-467d-b83d-34f2e31f2122",
+                "resourcePath": "sounds\\sfx_capture\\sfx_capture.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "eeacf5f2-8d04-40fb-8287-8d56ed5d7964",
             "Value": {
                 "id": "6d605cb1-dc21-4559-a716-52abfdba559f",
@@ -1260,6 +1364,14 @@
                 "id": "ddd10e26-5ef5-4eb7-adc6-d488e8e6ab18",
                 "resourcePath": "objects\\obj_camera_target\\obj_camera_target.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "efc72ad2-0de5-4c1e-9ecb-58b91615501d",
+            "Value": {
+                "id": "865db756-e6d6-42e5-ac43-c0c09514c115",
+                "resourcePath": "sounds\\sfx_complete\\sfx_complete.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1394,6 +1506,7 @@
         "be549698-35ab-4909-98a2-a76ef494cf0f",
         "00f6bae8-1008-4a6f-bbee-aa40fb0fa5e6",
         "e1bc97b1-f195-4265-90ba-8f6a42ceeb4a",
+        "dd63e40d-7758-4370-9d22-b108ddd2c767",
         "825c5a7e-2432-47d2-ab93-50e72d1952fe",
         "c3912095-ed2a-4541-8f79-7a80ad637b6c"
     ],

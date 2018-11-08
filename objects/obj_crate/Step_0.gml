@@ -10,6 +10,8 @@ if (on_fire)
 
 if (hp <= 0)
 {
-	instance_destroy();
+	scr_audio("explosion");
 	scr_screen_shake(2, 5);
+	instance_destroy();
+
 }
