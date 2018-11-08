@@ -16,23 +16,29 @@ if(controls_enabled)
 	{
 		Direction = Direction.down;	
 	}
+	if(key_up)
+	{
+		Direction = Direction.up;	
+	}
 	if(key_ability && can_dig)
 	{
 		switch(Direction)
 		{
 			case Direction.right:
-			var block = instance_place(x+5,y-50,obj_dirt_block)
-			if place_meeting(x+5,y-50,block)
+			var block = instance_place(x+5,y-30,obj_dirt_block)
+			if place_meeting(x+5,y-30,block)
 			{
+				sprite_index = spr_mole_digging;
 				can_dig = false;
 				alarm[0] = 30;
 				block.hp -=1;
 				break;
 			}
 			case Direction.left:
-			var block = instance_place(x-5,y-10,obj_dirt_block)
-			if place_meeting(x-5,y-50,block)
+			var block = instance_place(x-5,y-30,obj_dirt_block)
+			if place_meeting(x-5,y-30,block)
 			{
+				sprite_index = spr_mole_digging;
 				can_dig = false;
 				alarm[0] = 30;
 				block.hp -=1;
@@ -42,6 +48,17 @@ if(controls_enabled)
 			var block = instance_place(x,y+5,obj_dirt_block)
 			if place_meeting(x,y+5,block)
 			{
+				sprite_index = spr_mole_digging;
+				can_dig = false;
+				alarm[0] = 30;
+				block.hp -=1;
+				break;
+			}
+			case Direction.up:
+			var block = instance_place(x,y-40,obj_dirt_block)
+			if place_meeting(x,y-40,block)
+			{
+				sprite_index = spr_mole_digging;
 				can_dig = false;
 				alarm[0] = 30;
 				block.hp -=1;

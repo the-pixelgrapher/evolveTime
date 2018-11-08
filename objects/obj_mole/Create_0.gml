@@ -36,7 +36,8 @@ enum Direction
 {
 	down = 270,
 	right = 0,
-	left = 180
+	left = 180,
+	up = 90
 }
 
 Direction = Direction.right
