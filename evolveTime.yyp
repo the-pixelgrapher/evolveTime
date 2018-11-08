@@ -159,14 +159,6 @@
             }
         },
         {
-            "Key": "0f85bf2a-f51f-4f4a-86c9-e8ff3d2d1234",
-            "Value": {
-                "id": "3d1d2311-8782-4f7d-9416-d95842cffb72",
-                "resourcePath": "sprites\\spr_grass_dirt\\spr_grass_dirt.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "0fe9249c-eba7-4a2f-a558-080bb6992aa5",
             "Value": {
                 "id": "edecc46d-d5d5-4d36-8274-1c9d8f000c42",
@@ -203,14 +195,6 @@
             "Value": {
                 "id": "996f1ed4-1dae-4971-b7fa-3eb91da4dc8d",
                 "resourcePath": "sprites\\spr_wall\\spr_wall.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "165c8707-25b1-424f-a43b-cbe0b42d2287",
-            "Value": {
-                "id": "2db2a19d-e54e-43ca-8166-e086b42c24b0",
-                "resourcePath": "sprites\\spr_background_tiles\\spr_background_tiles.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -331,14 +315,6 @@
             "Value": {
                 "id": "1b77a690-bdea-4159-a598-e2cddbfaf09e",
                 "resourcePath": "sprites\\spr_player_salamander_blob\\spr_player_salamander_blob.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "33cc9259-cc97-4f53-9408-02bf50613969",
-            "Value": {
-                "id": "a70fe594-a34f-4203-80f3-f6a8d6bf0038",
-                "resourcePath": "sprites\\spr_grass_dirt_v2\\spr_grass_dirt_v2.yy",
                 "resourceType": "GMSprite"
             }
         },
