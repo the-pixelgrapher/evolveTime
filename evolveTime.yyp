@@ -743,14 +743,6 @@
             }
         },
         {
-            "Key": "8526be16-897a-49a3-bbd1-fb76125b2d36",
-            "Value": {
-                "id": "709a83fb-594d-42a6-8f94-2d8973134ffe",
-                "resourcePath": "objects\\obj_breakable_block\\obj_breakable_block.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "85c0ffa6-0c7a-4871-be6c-65527acf3a6f",
             "Value": {
                 "id": "261c7d24-e748-4fb6-a9d8-b3051adbae92",
