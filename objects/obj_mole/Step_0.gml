@@ -16,28 +16,34 @@ if(controls_enabled)
 	{
 		Direction = Direction.down;	
 	}
-	if(key_ability)
+	if(key_ability && can_dig)
 	{
 		switch(Direction)
 		{
 			case Direction.right:
-			var block = instance_place(x+5,y,obj_dirt_block)
-			if place_meeting(x+5,y,block)
+			var block = instance_place(x+5,y-50,obj_dirt_block)
+			if place_meeting(x+5,y-50,block)
 			{
+				can_dig = false;
+				alarm[0] = 30;
 				block.hp -=1;
 				break;
 			}
 			case Direction.left:
-			var block = instance_place(x-5,y,obj_dirt_block)
-			if place_meeting(x-5,y,obj_dirt_block)
+			var block = instance_place(x-5,y-10,obj_dirt_block)
+			if place_meeting(x-5,y-50,block)
 			{
+				can_dig = false;
+				alarm[0] = 30;
 				block.hp -=1;
 				break;
 			}
 			case Direction.down:
 			var block = instance_place(x,y+5,obj_dirt_block)
-			if place_meeting(x,y+5,obj_dirt_block)
+			if place_meeting(x,y+5,block)
 			{
+				can_dig = false;
+				alarm[0] = 60;
 				block.hp -=1;
 				break;
 			}

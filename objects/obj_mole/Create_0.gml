@@ -34,9 +34,9 @@ can_dig = true;
 
 enum Direction
 {
-	down,
-	right,
-	left
+	down = 270,
+	right = 0,
+	left = 180
 }
 
 Direction = Direction.right
