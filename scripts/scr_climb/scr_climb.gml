@@ -12,11 +12,11 @@ hsp = 0;
 vsp = 0;                                                         
 
 // ~~ Press ctrl to drop off the web ~~
-if(key_ctrl)
+/*if(key_ctrl)
 {
 	state = PLAYER_STATE.normal;
 	exit;
-}
+}*/
 
 // ~~ Web Movement ~~ 
 if(controls_enabled && place_meeting(x,y, object_climb))                                                  
