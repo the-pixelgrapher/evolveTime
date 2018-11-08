@@ -10,4 +10,4 @@ for (var i = 0; i < 7; i++)
 
 scr_load();
 
-room_goto_next();
+room_goto(rm_main_menu);
