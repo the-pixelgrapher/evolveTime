@@ -34,17 +34,17 @@ if(controls_enabled && place_meeting(x,y, object_climb))
         hsp += climb_speed;
     }
 	// ~~ UP ~~
-	if(key_w)
+	if(key_up)
 	{                                                                 
 		vsp -= climb_speed;                       
 	}
 	// ~~ DOWN ~~
-	if(key_s)
+	if(key_down)
 	{
 		vsp += climb_speed;
 	}
 	// delete web 
-	if(key_q)
+	if(key_ability)
 	{
 		instance_destroy(web);
 	}

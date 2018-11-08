@@ -37,7 +37,7 @@ if(controls_enabled)
 		draw_xscale = 1.15;
 	}
 	
-	if (key_q && can_shoot_flame)
+	if (key_ability && can_shoot_flame)
 	{
 		can_shoot_flame = false;
 		alarm[0] = 30;
