@@ -6,6 +6,7 @@ if (draw_alpha > 0)
 	
 	draw_set_alpha(draw_alpha);
 	draw_sprite(spr_pause_menu_back, 0, 400, y + 120);
+	//draw_sprite(spr_level_select_outline, 0, 640, y + 223)
 	
 	draw_set_color($52453D);
 	draw_set_font(fnt_level_num);
@@ -50,6 +51,11 @@ if (draw_alpha > 0)
 		}
 	}
 	
+}
+
+if (controls_screen)
+{
+	draw_sprite(spr_controls_back, 0, 400, 120);
 }
 
 draw_set_alpha(1);

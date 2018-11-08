@@ -1,3 +1,5 @@
+controls_screen = false;
+
 // Menu origin
 y = 300;
 
