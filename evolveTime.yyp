@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "505fa305-0d11-46a7-ac50-e7913273f2b5",
+            "Value": {
+                "id": "2af92bf5-6d11-4a55-9fdc-f4c72e7081ae",
+                "resourcePath": "sprites\\spr_background_tiles_v2\\spr_background_tiles_v2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "50c8e3c4-26c7-4a08-bf61-a4a67ddc56ae",
             "Value": {
                 "id": "60201862-9fa1-4fde-8d70-44fb2d6bacb4",
