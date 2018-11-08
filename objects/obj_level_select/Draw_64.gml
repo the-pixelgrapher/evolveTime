@@ -3,8 +3,9 @@ draw_set_valign(1);
 draw_set_halign(1);
 draw_set_color($52453D);
 
-var rs = floor(select/7),
-	xs = (select * 128) - (rs * 896) + x,
+var rl = 8;
+var rs = floor(select / rl),					//row length
+	xs = (select * 128) - (rs * rl * 128) + x,
 	ys = rs * 128 + y;
 	
 xs_lerp = lerp(xs_lerp, xs, 0.25);
@@ -12,11 +13,11 @@ ys_lerp = lerp(ys_lerp, ys, 0.25);
 
 
 // ---- DRAW LEVEL SELECTION GRID ----
-for (var i = 0; i < 14; i++)
+for (var i = 0; i < 16; i++)
 {
-	var rn = floor(i / 7),					//row number
-		xo = (i * 128) - (rn * 896) + x,	//x origin pint
-		yo = rn * 128 + y;					//y origin point
+	var rn = floor(i / rl),						//row number
+		xo = (i * 128) - (rn * rl * 128) + x,	//x origin pint
+		yo = rn * 128 + y;						//y origin point
 	
 	draw_sprite_ext(spr_level_back,0,xo,yo,1,1,0, c_white, 1);
 	//draw_sprite_ext(spr_level_back,0,xo,yo,1,1,0, $52453D, 1);

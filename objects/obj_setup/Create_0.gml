@@ -1,4 +1,4 @@
-global.level = 0;
+global.level = 1;
 global.reset_timer_length = 45;
 global.sound = 1;
 global.music = 1;
