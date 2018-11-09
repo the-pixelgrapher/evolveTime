@@ -7,7 +7,7 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "5224cbf1-a8a7-4bb9-99fb-70e50f870cfb"
+        "96ab3b41-4cff-448b-b909-1f97570948e7"
     ],
     "IsDnD": false,
     "layers": [
@@ -42,7 +42,7 @@
             "name": "Assets_1",
             "id": "67f12b67-b99c-475b-ac16-2d540ca9ee18",
             "assets": [
-
+{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_1178A3B9","id": "06895072-159d-4156-8b1c-029b71d1e4ef","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "bc22d515-ec48-4ef3-8d80-e30c6775c17a","userdefined_animFPS": false,"x": 1089,"y": 640}
             ],
             "depth": 100,
             "grid_x": 32,
@@ -77,7 +77,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_EB5A0D3","id": "5224cbf1-a8a7-4bb9-99fb-70e50f870cfb","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_EB5A0D3","objId": "85c4ad4c-9fca-42d3-9a91-30aab4f3c0a9","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 0,"y": 0}
+{"name": "inst_112DF016","id": "96ab3b41-4cff-448b-b909-1f97570948e7","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_112DF016","objId": "dd9e681b-b6dc-4b38-8049-346bf27ccc0e","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 0,"y": 0}
             ],
             "layers": [
 
