@@ -6,10 +6,9 @@ select -= key_up_p * 8;
 select += key_down_p * 8;
 
 if (select > 15) {select = 0;}
-if (select < 0)  {select = 15;}
+if (select < 0)  {select = clamp(global.level_unlocked,0,15);}
 
-if select > clamp(global.level_unlocked,0,20) {select = 0;} //do not allow user to select locked levels
-if select < 0 {select = clamp(global.level_unlocked,0,20);}
+if select > clamp(global.level_unlocked,0,15) {select = 0;} //do not allow user to select locked levels
 
 
 if (key_up_p || key_down_p || key_left_p || key_right_p)
