@@ -44,3 +44,5 @@ else if (!global.level_complete && time_steps < 60*20 &&
 {
 	draw_sprite(spr_reset_hint, 0, 1144, 640);
 }
+
+draw_set_alpha(1);

@@ -1,7 +1,5 @@
 // Player control script
 
-walksp *= !global.level_complete;
-
 #region // Grounded check
 if (place_meeting(x, y + 1, obj_solid) && collisons) 
 {

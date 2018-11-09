@@ -37,7 +37,7 @@ if (keyboard_check_pressed(vk_pagedown) && sign(global.grv) == -1) {
 
 
 if (global.level_complete)
-{
+{	
 	y = lerp(y, 0, 0.15);
 	if (key_act_r)
 	{

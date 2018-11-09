@@ -1,7 +1,7 @@
 alarm[0] = 75;				// Steps before camera focuses on player
 
 object_follow = obj_goal;	// Current camera target object
-object_follow_before = obj_goal;
+object_follow_before = obj_slimeyboi;
 
 follow_x = clamp(object_follow.x, 640, room_width-640);	
 x = follow_x;

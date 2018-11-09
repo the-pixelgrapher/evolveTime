@@ -12,7 +12,7 @@ hsp = 0;
 vsp = 0;                                                         
 
 // ~~ Web Movement ~~ 
-if(controls_enabled && place_meeting(x,y, object_climb))                                                  
+if(controls_enabled && place_meeting(x,y, object_climb) && !global.is_paused && !global.level_complete)
 {
 	// get the nearest web
 	var web = instance_nearest(x,y,obj_web)
@@ -64,6 +64,11 @@ if (place_meeting(x, y + 1, obj_solid) && collisons)
 else 
 {
 	grounded = false;
+}
+
+if (global.is_paused || global.level_complete)
+{
+	hsp = 0;
 }
 
 // Horizontal Collision

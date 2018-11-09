@@ -8,7 +8,7 @@ var hsp = argument[0];
 vsp += global.grv;
 
 
-if (global.is_paused)
+if (global.is_paused || global.level_complete)
 {
 	hsp = 0;
 }
