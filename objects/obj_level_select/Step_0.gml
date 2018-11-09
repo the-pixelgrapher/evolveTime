@@ -4,8 +4,11 @@ select -= key_left_p;
 select += key_right_p;
 select -= key_up_p * 8;
 select += key_down_p * 8;
-if (select > 15) {select = 0;}
-if (select < 0)  {select = 15;}
+
+if (select > global.level_unlocked + 0) {select = 0;}
+if (select < 0)  {select = global.level_unlocked + 0;}
+
+
 
 if (key_up_p || key_down_p || key_left_p || key_right_p)
 {

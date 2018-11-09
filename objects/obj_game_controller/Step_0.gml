@@ -44,6 +44,13 @@ if (global.level_complete)
 		scr_audio("complete");
 		complete_sound_played = true;
 	}
+	
+	global.level_state[global.level - 1] = 2;
+	if (global.level < 16 && global.level_state[global.level] = 0)
+	{
+		global.level_state[global.level] = 1;	
+	}
+	scr_save();
 }
 
 

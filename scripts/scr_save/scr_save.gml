@@ -6,7 +6,7 @@ ini_open("progress.ini");
 	for 
 	(
 		var i = 0; 
-			i < 15; 
+			i < 16; 
 			i += 1;
 	)
 	{

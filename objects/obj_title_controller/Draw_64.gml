@@ -2,6 +2,7 @@ draw_set_font(fnt_menu);
 draw_set_halign(1);
 draw_set_valign(0);
 draw_set_color($52453D);
+draw_set_alpha(1);
 
 for (var i = 0; i < 4; i++)
 {
