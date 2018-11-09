@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "3cb052f1-fa37-474a-b1b2-0b86858c4077",
+            "Value": {
+                "id": "e588fbb4-4f46-43e3-bb90-adfe9520bc59",
+                "resourcePath": "sounds\\sfx_level_mus1\\sfx_level_mus1.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3f1f7a0b-dfe3-408a-b59b-dd61615e3f2b",
             "Value": {
                 "id": "755ef4c0-394a-4b62-8da9-003c9a5bd45a",

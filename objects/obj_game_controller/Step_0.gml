@@ -26,8 +26,13 @@ if (reset_timer >= 1 && alarm[1] == -1)
 }
 
 
-if (keyboard_check_pressed(vk_tab)) {
+if (keyboard_check_pressed(vk_pageup) && sign(global.grv) == 1) {
 	global.grv *= -1;
+	scr_audio("music_level2")
+}
+if (keyboard_check_pressed(vk_pagedown) && sign(global.grv) == -1) {
+	global.grv *= -1;
+	scr_audio("music_level")
 }
 
 

@@ -16,6 +16,7 @@ if global.sound == 1 {
 		break;
 		
 		case "music_menu": //background music
+		audio_stop_sound(sfx_level_mus1);
 		if (!audio_is_playing(sfx_menu_mus0) and global.music == 1)
 		{
 			audio_stop_sound(sfx_level_mus0);
@@ -25,10 +26,20 @@ if global.sound == 1 {
 		
 		case "music_level": //background music
 		audio_sound_gain(sfx_level_mus0, 0.45, 120);
+		audio_stop_sound(sfx_level_mus1);
 		if (!audio_is_playing(sfx_level_mus0) and global.music == 1)
 		{
 			audio_stop_sound(sfx_menu_mus0);
 			audio_play_sound(sfx_level_mus0,64,1);
+		}
+		break;
+		
+		case "music_level2": //background music
+		if (global.music == 1)
+		{
+			audio_sound_gain(sfx_level_mus0, 0, 120);
+			audio_stop_sound(sfx_level_mus1);
+			audio_play_sound(sfx_level_mus1,64,1);
 		}
 		break;
 		
