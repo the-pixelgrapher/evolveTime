@@ -13,7 +13,7 @@ for (var i = 0; i < 4; i++)
 	if (i = 2) {var item = "controls"}
 	if (i = 3) {var item = "exit"}
 	
-	if (select = i)
+	if (select = i && !controls_screen)
 	{
 		draw_sprite(spr_menu_select, 0, 460, y + yy);
 		draw_set_color(c_white);
@@ -45,3 +45,14 @@ if (controls_screen)
 	draw_sprite(spr_key_ability, index_key, 735, 448);
 	draw_sprite(spr_key_right, index_key, 791, 448);
 }
+else
+{
+	draw_sprite(spr_logo, 0, 509, 64);
+}
+
+// Draw version number
+draw_set_color($52453D);
+draw_set_font(fnt_debug);
+draw_set_halign(0);
+draw_set_valign(2);
+draw_text(32, 688, "1.0.6");
